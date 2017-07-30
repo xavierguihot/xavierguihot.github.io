@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<svg></svg>
+<!-- d3 -->
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3-scale.v1.min.js"></script>
+<!-- The library which draws the word cloud -->
+<script src="https://cdn.rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
+<!-- Google fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<!-- Jquery, dependency for tipsy: -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- Tipsy (tooltips) the javascript code is a modified version of the original tipsy, tuned for d3: -->
+<script src="https://cdn.rawgit.com/mccannf/1629644/raw/6265dc6e0935b9463bb924fa377e99617624f6a4/jquery.tipsy.js"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/creativedream/jquery.tipsy/master/css/jquery.tipsy.css"/>
+<!-- My code: -->
+<script type="text/javascript" src="src/word_cloud/word_cloud.js"></script>
+<script type="text/javascript" src="src/time_line/time_line.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/circle.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/ray.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/arc.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/tooltip_images.js"></script>
+<script type="text/javascript" src="src/time_line/data.js"></script>
+<script type="text/javascript" src="src/text/draw_text.js"></script>
+<script>
+
+d3.select("body").style("background-color", "#F1E9ED");
+
+// The top div which contains the whole graph:
+var svg = d3.select("svg")
+	// The following attributes allow me to size/scale back the graph based on
+	// the user's browser own window size:
+	.attr("preserveAspectRatio", "xMinYMin meet")
+	.attr("viewBox", "0 0 1250 1350")
+	.classed("svg-content", true)
+	.append("g")
+
+// The order matters for svg z-index equivalent:
+var cloudTextImagesSvg = svg.append("g");
+var cloudSvg = svg.append("g");
+var timeLineSvg = svg.append("g");
+
+drawRandomTextsAndImages(cloudTextImagesSvg, "data/random_text_and_images.json", 625, 0);
+drawTimeLine(timeLineSvg, "data/time_line.json", -85, 50);
+drawWordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
+
+</script>

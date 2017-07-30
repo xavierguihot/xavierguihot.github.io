@@ -1,0 +1,41 @@
+{
+	"sentences": [
+		{
+			"text": "Xavier GUIHOT", "size": 35, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "medium", "x": -175, "y": 110
+		},
+		{
+			"text": "Data Engineer", "size": 29, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "default", "x": -150, "y": 150
+		},
+		{
+			"text": "Antibes, France", "size": 17, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1150
+		},
+		{
+			"text": "x.guihot@gmail.com", "size": 17, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1175
+		},
+		{
+			"text": "https://github.com/xavierguihot", "size": 17, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1200,
+			"link": "https://github.com/xavierguihot"
+		},
+		{
+			"text": "https://freelancer.com/u/xavierght.html", "size": 17, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1225,
+			"link": "https://freelancer.com/u/XavierGht.html"
+		},
+		{
+			"text": "https://youtube.com/channel/xavierguihot", "size": 17, "color": "#4e5056",
+			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1250,
+			"link": "https://youtube.com/channel/UCtuoXvsu8TPPZ3gsbVIV2cA"
+		}
+	],
+	"images": [
+		{
+			"path": "img/profile.png",
+			"x": -500, "y": 963, "width": 160, "height": 162
+		}
+	]
+}
