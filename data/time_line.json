@@ -705,6 +705,14 @@
 						{ "color": "#F1E9ED", "offset": 100, "dissipation": true }
 					],
 					"shadow_dissipation": true
+				},
+				{
+					"inner_radius": 135, "start_angle": 100, "end_angle": 80,
+					"gradient_colors": [
+						{ "color": "#F1E9ED", "offset": 0, "dissipation": true },
+						{ "color": "#F1E9ED", "offset": 100, "dissipation": true }
+					],
+					"shadow_dissipation": true
 				}
 			]
 		}
