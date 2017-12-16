@@ -13,7 +13,7 @@
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1100
 		},
 		{
-			"text": "x.guihot@gmail.com", "size": 17, "color": "#4e5056",
+			"text": "xavier.guihot@protonmail.com", "size": 17, "color": "#4e5056",
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1125
 		},
 		{
@@ -55,6 +55,10 @@
 		{
 			"path": "img/gmail.png",
 			"x": -525, "y": 1112, "width": 16, "height": 16
+		},
+		{
+			"path": "img/protonmail.png",
+			"x": -255, "y": 1112, "width": 16, "height": 16
 		},
 		{
 			"path": "img/resume.png",
