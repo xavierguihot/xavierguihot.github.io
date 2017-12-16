@@ -1,7 +1,7 @@
 
 # D3 Dynamic Resume
 
-[https://xavierguihot.com](https://xavierguihot.com)
+[http://xavierguihot.com](http://xavierguihot.com)
 
 ## Overview
 
@@ -14,5 +14,5 @@ by Chen-Wen Liang.
 The time line can actually be transposed to anyone's resume by modifying the
 json input data file.
 
-Partial screenshot from [https://xavierguihot.com](https://xavierguihot.com):
+Partial screenshot from [http://xavierguihot.com](http://xavierguihot.com):
 ![Timeline](img/timeline.png)
