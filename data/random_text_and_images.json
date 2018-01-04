@@ -17,14 +17,14 @@
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1125
 		},
 		{
-			"text": "https://xavierguihot.github.io/resume", "size": 17, "color": "#4e5056",
+			"text": "http://xavierguihot.com/resume", "size": 17, "color": "#4e5056",
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1150,
-			"link": "https://xavierguihot.github.io/jsonresume-theme-stackoverflow"
+			"link": "http://xavierguihot.com/jsonresume-theme-stackoverflow"
 		},
 		{
-			"text": "https://www.linkedin.com/in/xavier-guihot", "size": 17, "color": "#4e5056",
+			"text": "https://www.linkedin.com/in/xavierguihot", "size": 17, "color": "#4e5056",
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1175,
-			"link": "https://www.linkedin.com/in/xavier-guihot-2327b014b/"
+			"link": "https://www.linkedin.com/in/xavierguihot"
 		},
 		{
 			"text": "https://github.com/xavierguihot", "size": 17, "color": "#4e5056",
