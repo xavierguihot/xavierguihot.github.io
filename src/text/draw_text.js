@@ -10,6 +10,7 @@ function drawRandomTextsAndImages(svg, dataPath, x, y) {
 			.data(json.sentences)
 			.enter().append("a")
 			.attr("xlink:href", function(d) { return d.link ? d.link : undefined; })
+			.style("cursor", function(d) { return d.link ? "pointer" : undefined; })
 			.append("text")
 			.text( function(d) { return d.text; })
 			.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
