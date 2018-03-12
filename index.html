@@ -2,6 +2,7 @@
 
 <title>Xavier GUIHOT - Data Engineer</title>
 <meta name="description" content="Big Data Engineer with 3+ years of experience in interpreting and analyzing data for driving business solutions.">
+<meta charset="utf-8"/>
 
 <svg></svg>
 
@@ -28,6 +29,7 @@
 <script type="text/javascript" src="src/time_line/shapes/tooltip_images.js"></script>
 <script type="text/javascript" src="src/time_line/data.js"></script>
 <script type="text/javascript" src="src/text/draw_text.js"></script>
+<script type="text/javascript" src="src/divers/stack_overflow.js"></script>
 <script>
 
 d3.select("body").style("background-color", "#F1E9ED");
@@ -41,13 +43,18 @@ var svg = d3.select("svg")
 	.classed("svg-content", true)
 	.append("g")
 
+// During dev, set this to false in order not to dos external providers:
+let activateApiCalls = true
+
 // The order matters for svg z-index equivalent:
-var cloudTextImagesSvg = svg.append("g");
+var textImagesSvg = svg.append("g");
 var cloudSvg = svg.append("g");
 var timeLineSvg = svg.append("g");
+var soSvg = svg.append("g");
 
-drawRandomTextsAndImages(cloudTextImagesSvg, "data/random_text_and_images.json", 625, 0);
+drawRandomTextsAndImages(textImagesSvg, "data/random_text_and_images.json", 625, 0);
 drawTimeLine(timeLineSvg, "data/time_line.json", -85, 50);
 drawWordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
+drawStackOverflow(soSvg, activateApiCalls);
 
 </script>

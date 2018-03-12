@@ -9,80 +9,52 @@
 			"font": "Ubuntu", "weight": "default", "x": -150, "y": 150
 		},
 		{
-			"text": "Antibes, France", "size": 17, "color": "#4e5056",
+			"text": "Antibes, France", "size": 15, "color": "#4e5056",
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1100
 		},
 		{
-			"text": "xavier.guihot@protonmail.com", "size": 17, "color": "#4e5056",
+			"text": "xavier.guihot@protonmail.com", "size": 15, "color": "#4e5056",
 			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1125
-		},
-		{
-			"text": "http://xavierguihot.com/resume", "size": 17, "color": "#4e5056",
-			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1150,
-			"link": "http://xavierguihot.com/jsonresume-theme-stackoverflow"
-		},
-		{
-			"text": "https://www.linkedin.com/in/xavierguihot", "size": 17, "color": "#4e5056",
-			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1175,
-			"link": "https://www.linkedin.com/in/xavierguihot"
-		},
-		{
-			"text": "https://github.com/xavierguihot", "size": 17, "color": "#4e5056",
-			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1200,
-			"link": "https://github.com/xavierguihot"
-		},
-		{
-			"text": "https://freelancer.com/u/xavierght.html", "size": 17, "color": "#4e5056",
-			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1225,
-			"link": "https://freelancer.com/u/XavierGht.html"
-		},
-		{
-			"text": "https://hackerrank.com/xavier_guihot", "size": 17, "color": "#4e5056",
-			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1250,
-			"link": "https://www.hackerrank.com/xavier_guihot"
-		},
-		{
-			"text": "https://youtube.com/channel/xavierguihot", "size": 17, "color": "#4e5056",
-			"font": "Ubuntu", "weight": "default", "x": -500, "y": 1275,
-			"link": "https://youtube.com/channel/UCtuoXvsu8TPPZ3gsbVIV2cA"
 		}
 	],
 	"images": [
+		{
+			"path": "img/linkedin.png",
+			"x": -138, "y": 166, "width": 71, "height": 16,
+			"link": "https://www.linkedin.com/in/xavierguihot"
+		},
+		{
+			"path": "img/github.png",
+			"x": -142, "y": 166, "width": 16, "height": 16,
+			"link": "https://github.com/xavierguihot"
+		},
+		{
+			"path": "img/resume.png",
+			"x": -82, "y": 166, "width": 16, "height": 16,
+			"link": "http://xavierguihot.com/jsonresume-theme-stackoverflow"
+		},
+		{
+			"path": "img/so-icon.png",
+			"x": -57, "y": 160.5, "width": 28, "height": 28,
+			"link": "https://stackoverflow.com/users/9297144/xavier-guihot"
+		},
+		{
+			"path": "img/hackerrank.png",
+			"x": -22, "y": 166, "width": 16, "height": 16,
+			"link": "https://www.hackerrank.com/xavier_guihot"
+		},
+		{
+			"path": "img/freelancer.ico",
+			"x": 8, "y": 166, "width": 16, "height": 16,
+			"link": "https://freelancer.com/u/XavierGht.html"
+		},
 		{
 			"path": "img/profile.png",
 			"x": -500, "y": 913, "width": 160, "height": 162
 		},
 		{
-			"path": "img/gmail.png",
-			"x": -525, "y": 1112, "width": 16, "height": 16
-		},
-		{
 			"path": "img/protonmail.png",
-			"x": -255, "y": 1112, "width": 16, "height": 16
-		},
-		{
-			"path": "img/resume.png",
-			"x": -525, "y": 1137, "width": 16, "height": 16
-		},
-		{
-			"path": "img/linkedin.png",
-			"x": -573, "y": 1161, "width": 71, "height": 16
-		},
-		{
-			"path": "img/github.png",
-			"x": -525, "y": 1186, "width": 16, "height": 16
-		},
-		{
-			"path": "img/freelancer.ico",
-			"x": -525, "y": 1211, "width": 16, "height": 16
-		},
-		{
-			"path": "img/hackerrank.png",
-			"x": -525, "y": 1236, "width": 16, "height": 16
-		},
-		{
-			"path": "img/youtube.png",
-			"x": -525, "y": 1261, "width": 16, "height": 16
+			"x": -525, "y": 1112, "width": 16, "height": 16
 		}
 	]
 }

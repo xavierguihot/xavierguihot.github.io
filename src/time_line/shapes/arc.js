@@ -123,7 +123,11 @@ function drawArcs(svg, jsonTimeLine) {
 		// be able to center the text inside the gradient-colored arc shape
 		// (otherwise it could only be placed outside the arc shape...):
 		var arc = d3.arc()
-			.innerRadius( function(d) { return d.inner_radius; })
+			.innerRadius( function(d) {
+				// When label is flipped, we need an offset to move away the text to the
+				// exterior:
+				return d.inner_radius + (d.text.startOffset ? 7 : 0);
+			})
 			.outerRadius( function(d) { return d.text_radius; })
 			.startAngle( function(d) { return d.start_angle; })
 			.endAngle( function(d) { return d.end_angle; });
@@ -143,14 +147,16 @@ function drawArcs(svg, jsonTimeLine) {
 
 		// Once the patern curved shape set, we can put the text (textPath)
 		// by referencing the associated shape:
-		// svg.append("text")
 		svg.selectAll("arc_text")
 			// We filter out arcs for which we don't have text:
 			.data(arcs.filter( function(d) { return d.text }))
 			.enter().append("text").append("textPath")
 			// Link to the curved arc to use as a patern:
 			.attr("xlink:href", function(d) { return "#" + d.id; })
-			.attr("startOffset", function(d) { return "6px"; })
+			// Quick fix for labels which are fliped (default is 6px) (this is dirty):
+			.attr("startOffset", function(d) {
+				return d.text.startOffset ? d.text.startOffset : "6px";
+			})
 			// weirdly enough, here you should use "attr" instead of "style":
 			.attr("font-size", function(d) { return d.text.size; })
 			.attr("font-family", "Heebo")
@@ -189,6 +195,9 @@ function drawArcs(svg, jsonTimeLine) {
 				}
 			)
 			.style("fill", "transparent")
+      .style("cursor", function(d) {
+        return d.redirect ? "pointer" : "default"
+      })
 			.on("mouseover", function(d) {
 				if (d.mouseover_images)
 					d.mouseover_images.forEach( function(y) {
@@ -209,7 +218,10 @@ function drawArcs(svg, jsonTimeLine) {
 						d3.select("#" + y.path.replace(/\//g, "_").replace(/.png/g, ""))
 							.style("opacity", 0);
 					});
-			});
+			})
+      .on("click", function(d) {
+        if (d.redirect) window.open(d.redirect, "_blank");
+      });
 
 		// And the tooltip whenever there's one:
 		$("path.tooltiped").tipsy({

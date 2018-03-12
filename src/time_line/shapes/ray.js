@@ -59,7 +59,9 @@ function drawRays(svg, jsonTimeLine) {
 				})
 				.style("font-family", function(d) { return d.text.font; })
 				.style("font-size", function(d) { return d.text.size + "px"; })
-				.style("cursor", "default")
+				.style("cursor", function(d) {
+          return d.redirect ? "pointer" : "default"
+        })
 				.attr("stroke", "white")
 				.on("mouseover", function(d) {
 					if (d.mouseover_images)
@@ -81,7 +83,11 @@ function drawRays(svg, jsonTimeLine) {
 							d3.select("#" + y.path.replace(/\//g, "_").replace(/.png/g, ""))
 								.style("opacity", 0);
 						});
-				}).transition()
+				})
+        .on("click", function(d) {
+          if (d.redirect) window.open(d.redirect, "_blank");
+        })
+        .transition()
 				.duration(1300)
 				.attr("stroke", function(d) { return d.text.color; })
 				.attr(
