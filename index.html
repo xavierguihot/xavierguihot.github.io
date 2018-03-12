@@ -36,15 +36,15 @@ d3.select("body").style("background-color", "#F1E9ED");
 
 // The top div which contains the whole graph:
 var svg = d3.select("svg")
-	// The following attributes allow me to size/scale back the graph based on
-	// the user's browser own window size:
-	.attr("preserveAspectRatio", "xMinYMin meet")
-	.attr("viewBox", "0 0 1250 1350")
-	.classed("svg-content", true)
-	.append("g")
+  // The following attributes allow me to size/scale back the graph based on
+  // the user's browser own window size:
+  .attr("preserveAspectRatio", "xMinYMin meet")
+  .attr("viewBox", "0 0 1250 1350")
+  .classed("svg-content", true)
+  .append("g")
 
 // During dev, set this to false in order not to dos external providers:
-let activateApiCalls = true
+let activateApiCalls = false
 
 // The order matters for svg z-index equivalent:
 var textImagesSvg = svg.append("g");
