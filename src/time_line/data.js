@@ -11,7 +11,7 @@ function decorateData(jsonTimeLine) {
   jsonTimeLine.life_parts = jsonTimeLine.life_parts.map( function(lifePeriod, i) {
 
     // If there are arcs for this life period:
-    if (lifePeriod.arcs != undefined) {
+    if (lifePeriod.arcs) {
 
       lifePeriod.arcs = lifePeriod.arcs.map( function(d, j) {
 
@@ -23,10 +23,10 @@ function decorateData(jsonTimeLine) {
 
         d.outer_radius = d.inner_radius + jsonTimeLine.arc_width;
 
-        if (d.text != undefined && !d.text.size)
+        if (d.text && !d.text.size)
           d.text.size = 11.5;
 
-        if (d.text != undefined && d.text.reverse_text)
+        if (d.text && d.text.reverse_text)
           d.text_radius = d.inner_radius + jsonTimeLine.arc_width / 2 + 3;
         else
           d.text_radius = d.inner_radius + jsonTimeLine.arc_width / 2 - 4;
@@ -46,7 +46,7 @@ function decorateData(jsonTimeLine) {
     }
 
     // If there are rays for this life period:
-    if (lifePeriod.rays != undefined) {
+    if (lifePeriod.rays) {
 
       lifePeriod.rays = lifePeriod.rays.map( function(d) {
 
@@ -58,11 +58,11 @@ function decorateData(jsonTimeLine) {
         d.x2 = lifePeriod.center_x + d.length * Math.cos(d.radian);
         d.y2 = lifePeriod.center_y + d.length * Math.sin(d.radian);
 
-        if (d.text != undefined && d.text.font == undefined)
-          d.text.font = "Heebo"
+        if (d.text && d.text.font === undefined)
+          d.text.font = "Heebo";
 
-        if (d.text != undefined && d.text.reverse_text == undefined)
-          d.text.reverse_text = false
+        if (d.text && d.text.reverse_text === undefined)
+          d.text.reverse_text = false;
 
         // To know wheter to display a tooltip or not:
         d.class = d.tooltip ? "tooltiped" : "not-tooltiped";
@@ -73,8 +73,8 @@ function decorateData(jsonTimeLine) {
 
     // I have a circle (the one named "Future") for which I don't want to
     // display the circle, just the text "Future":
-    if (lifePeriod.draw_white_circle == undefined)
-      lifePeriod.draw_white_circle = true
+    if (lifePeriod.draw_white_circle === undefined)
+      lifePeriod.draw_white_circle = true;
 
     return lifePeriod;
   });

@@ -16,12 +16,12 @@ function drawArcs(svg, jsonTimeLine) {
 
   // We first draw the shadows of arcs:
   jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
-    if (lifePeriod.arcs != undefined) drawArcShadow(lifePeriod.arcs);
+    if (lifePeriod.arcs) drawArcShadow(lifePeriod.arcs);
   });
 
   // And then we draw the arcs and their label:
   jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
-    if (lifePeriod.arcs != undefined) {
+    if (lifePeriod.arcs) {
       drawArcShapes(lifePeriod.arcs);
       drawArcTexts(lifePeriod.arcs);
       addTooltips(lifePeriod.arcs);
@@ -58,7 +58,7 @@ function drawArcs(svg, jsonTimeLine) {
         return function(t) {
           d.endAngle = i(t);
           return arc(d);
-        }
+        };
       });
   }
 
@@ -107,7 +107,7 @@ function drawArcs(svg, jsonTimeLine) {
         return function(t) {
           d.endAngle = i(t);
           return arc(d);
-        }
+        };
       });
   }
 
@@ -134,7 +134,7 @@ function drawArcs(svg, jsonTimeLine) {
 
     svg.selectAll("arc_text_path")
       // We filter out arcs for which we don't have text:
-      .data(arcs.filter( function(d) { return d.text }))
+      .data(arcs.filter( function(d) { return d.text; }))
       .enter().append("path")
       .attr("id", function(d) { return d.id; })
       .attr("d", function(d) { return arc(d); })
@@ -149,7 +149,7 @@ function drawArcs(svg, jsonTimeLine) {
     // by referencing the associated shape:
     svg.selectAll("arc_text")
       // We filter out arcs for which we don't have text:
-      .data(arcs.filter( function(d) { return d.text }))
+      .data(arcs.filter( function(d) { return d.text; }))
       .enter().append("text").append("textPath")
       // Link to the curved arc to use as a patern:
       .attr("xlink:href", function(d) { return "#" + d.id; })
@@ -196,7 +196,7 @@ function drawArcs(svg, jsonTimeLine) {
       )
       .style("fill", "transparent")
       .style("cursor", function(d) {
-        return d.redirect ? "pointer" : "default"
+        return d.redirect ? "pointer" : "default";
       })
       .on("mouseover", function(d) {
         if (d.mouseover_images)
@@ -256,7 +256,7 @@ function drawArcs(svg, jsonTimeLine) {
         .attr("stop-color", gradientTransition.color)
         .attr("stop-opacity", 1);
     });
-    
+
     return "url(#" + newGrad.attr("id") + ")";
   }
 
@@ -275,15 +275,15 @@ function drawArcs(svg, jsonTimeLine) {
     // We set the color transitions and where they happen:
     d.gradient_colors.forEach( function(gradientTransition) {
 
-      var fillColor = gradientTransition.dissipation ? "none" : gradientTransition.color
-      var fillOpacity = gradientTransition.dissipation ? 0: 1
+      var fillColor = gradientTransition.dissipation ? "none" : gradientTransition.color;
+      var fillOpacity = gradientTransition.dissipation ? 0: 1;
 
       newGrad.append("svg:stop")
         .attr("offset", gradientTransition.offset + "%")
         .attr("stop-color", fillColor)
         .attr("stop-opacity", fillOpacity);
     });
-    
+
     return "url(#" + newGrad.attr("id") + ")";
   }
 }

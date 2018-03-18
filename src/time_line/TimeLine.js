@@ -8,11 +8,11 @@
  * @author: Xavier Guihot
  * @since:  2017-07
  */
-function drawTimeLine(svg, dataPath, x, y) {
+function TimeLine(svg, dataPath, x, y) {
 
   d3.json(dataPath, function(jsonTimeLine) {
 
-    var decoratedData = decorateData(jsonTimeLine)
+    var decoratedData = decorateData(jsonTimeLine);
 
     var translatedSvg = svg.append("g")
       .attr("transform", "translate(" + x + "," + y + ")");
@@ -27,6 +27,18 @@ function drawTimeLine(svg, dataPath, x, y) {
 
     drawTooltipImages(translatedSvg, decoratedData);
   });
+
+  function drawRays(svg, jsonTimeLine) {
+    jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
+      if (lifePeriod.rays) new Ray(svg, lifePeriod, i);
+    });
+  }
+
+  function drawTooltipImages(svg, jsonTimeLine) {
+    jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
+      new TooltipImages(svg, lifePeriod, i);
+    });
+  }
 
   /** Prepares the "filter" used to draw shadows (for the white circles for instance).
    *

@@ -1,38 +1,35 @@
-/** Draws tooltip images which are displayed by mouseovers.
+/** Draws tooltip images which are displayed on mouseovers.
  *
  * @author: Xavier Guihot
  * @since:  2017-07
  */
-function drawTooltipImages(svg, jsonTimeLine) {
+function TooltipImages(svg, lifePeriod, i) {
 
-	jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
+	// If there are rays for this life period:
+	if (lifePeriod.rays) {
 
-		// If there are rays for this life period:
-		if (lifePeriod.rays != undefined) {
+		// The drawing of invisible images which appears when tooltips are
+		// activated. It's inside a timer in order to delay the download of
+		// images to give enough ram/cpu to initial transitions to be fluid
+		// (not sure if it does actually help):
+		setTimeout( function() {
+			lifePeriod.rays.forEach( function(ray, j) {
+				if (ray.mouseover_images)
+					drawElmtImages(svg, ray.mouseover_images, i, j);
+			});
+		}, 2200);
+	}
 
-			// The drawing of invisible images which appears when tooltips are
-			// activated. It's inside a timer in order to delay the download of
-			// images to give enough ram/cpu to initial transitions to be fluid
-			// (not sure if it does actually help):
-			setTimeout( function() {
-				lifePeriod.rays.forEach( function(ray, j) {
-					if (ray.mouseover_images)
-						drawElmtImages(svg, ray.mouseover_images, i, j);
-				});
-			}, 2200);
-		}
+	// If there are arcs for this life period:
+	if (lifePeriod.arcs) {
 
-		// If there are arcs for this life period:
-		if (lifePeriod.arcs != undefined) {
-
-			setTimeout( function() {
-				lifePeriod.arcs.forEach( function(arc, j) {
-					if (arc.mouseover_images)
-						drawElmtImages(svg, arc.mouseover_images, i, j + 1000);
-				});
-			}, 3000);
-		}
-	});
+		setTimeout( function() {
+			lifePeriod.arcs.forEach( function(arc, j) {
+				if (arc.mouseover_images)
+					drawElmtImages(svg, arc.mouseover_images, i, j + 1000);
+			});
+		}, 3000);
+	}
 }
 
 /** The drawing of mouseover images for a given arc or ray.

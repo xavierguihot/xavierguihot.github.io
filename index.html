@@ -21,15 +21,15 @@
 <script src="https://cdn.rawgit.com/mccannf/1629644/raw/6265dc6e0935b9463bb924fa377e99617624f6a4/jquery.tipsy.js"></script>
 <link type="text/css" rel="stylesheet" href="https://cdn.rawgit.com/creativedream/jquery.tipsy/master/css/jquery.tipsy.css"/>
 <!-- My code: -->
-<script type="text/javascript" src="src/word_cloud/word_cloud.js"></script>
-<script type="text/javascript" src="src/time_line/time_line.js"></script>
-<script type="text/javascript" src="src/time_line/shapes/circle.js"></script>
-<script type="text/javascript" src="src/time_line/shapes/ray.js"></script>
-<script type="text/javascript" src="src/time_line/shapes/arc.js"></script>
-<script type="text/javascript" src="src/time_line/shapes/tooltip_images.js"></script>
+<script type="text/javascript" src="src/word_cloud/WordCloud.js"></script>
+<script type="text/javascript" src="src/time_line/TimeLine.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/Circle.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/Ray.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/Arc.js"></script>
+<script type="text/javascript" src="src/time_line/shapes/TooltipImages.js"></script>
 <script type="text/javascript" src="src/time_line/data.js"></script>
-<script type="text/javascript" src="src/text/draw_text.js"></script>
-<script type="text/javascript" src="src/divers/stack_overflow.js"></script>
+<script type="text/javascript" src="src/text/TextsAndImages.js"></script>
+<script type="text/javascript" src="src/divers/StackOverflow.js"></script>
 <script>
 
 d3.select("body").style("background-color", "#F1E9ED");
@@ -44,7 +44,7 @@ var svg = d3.select("svg")
   .append("g")
 
 // During dev, set this to false in order not to dos external providers:
-let activateApiCalls = true
+let activateApiCalls = true;
 
 // The order matters for svg z-index equivalent:
 var textImagesSvg = svg.append("g");
@@ -52,9 +52,9 @@ var cloudSvg = svg.append("g");
 var timeLineSvg = svg.append("g");
 var soSvg = svg.append("g");
 
-drawRandomTextsAndImages(textImagesSvg, "data/random_text_and_images.json", 625, 0);
-drawTimeLine(timeLineSvg, "data/time_line.json", -85, 50);
-drawWordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
-drawStackOverflow(soSvg, activateApiCalls);
+new TextsAndImages(textImagesSvg, "data/random_text_and_images.json", 625, 0);
+new TimeLine(timeLineSvg, "data/time_line.json", -85, 50);
+new WordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
+new StackOverflowFlair(soSvg, activateApiCalls, 870, 1125);
 
 </script>

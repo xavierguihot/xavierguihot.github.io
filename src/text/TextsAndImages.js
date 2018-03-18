@@ -1,5 +1,5 @@
 
-function drawRandomTextsAndImages(svg, dataPath, x, y) {
+function TextsAndImages(svg, dataPath, x, y) {
 
   var textAndImagesContainer = svg.append("g")
     .attr("transform", "translate(" + x + "," + y + ")");

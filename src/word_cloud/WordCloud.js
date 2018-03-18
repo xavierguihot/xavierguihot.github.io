@@ -12,7 +12,7 @@
  * @author: Xavier Guihot
  * @since:  2017-07
  */
-function drawWordCloud(svg, dataPath, x, y) {
+function WordCloud(svg, dataPath, x, y) {
 
   var fill = d3.scaleOrdinal(d3.schemeCategory20);
 
