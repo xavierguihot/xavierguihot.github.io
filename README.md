@@ -5,9 +5,9 @@
 
 ## Overview
 
-Version: 1.0.1 - 20171216
+Version: 1.0.2 - 2018-06-17
 
-My personal page (resume) built with the powerfull d3 library and inspired from
+My personal page (resume) built with the powerful d3 library and inspired from
 this pretty [info-design](https://www.behance.net/gallery/7990211/Infographic-Design)
 by Chen-Wen Liang.
 
