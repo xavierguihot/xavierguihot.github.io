@@ -1,20 +1,20 @@
 /** Draws a time line of my professional life.
  *
- * Since I'm crually lacking of creativity and since I found this marvelous
+ * Since I'm cruelly lacking of creativity and since I found this marvelous
  * info-design https://www.behance.net/gallery/7990211/Infographic-Design by
  * Chen-Wen Liang, this script is a tentative at reproducing this timeline with
- * d3.js in order to propose a dynamique version of my resume.
+ * d3.js in order to propose a dynamic version of my resume.
  *
  * @author: Xavier Guihot
  * @since:  2017-07
  */
 function TimeLine(svg, dataPath, x, y) {
 
-  d3.json(dataPath, function(jsonTimeLine) {
+  d3.json(dataPath).then( function(jsonTimeLine) {
 
-    var decoratedData = decorateData(jsonTimeLine);
+    let decoratedData = decorateData(jsonTimeLine);
 
-    var translatedSvg = svg.append("g")
+    let translatedSvg = svg.append("g")
       .attr("transform", "translate(" + x + "," + y + ")");
 
     prepareShadows(translatedSvg);
@@ -29,20 +29,20 @@ function TimeLine(svg, dataPath, x, y) {
   });
 
   function drawRays(svg, jsonTimeLine) {
-    jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
-      if (lifePeriod.rays) new Ray(svg, lifePeriod, i);
-    });
+    jsonTimeLine.life_parts.forEach(
+      (lifePeriod, i) => { if (lifePeriod.rays) new Ray(svg, lifePeriod, i) }
+    );
   }
 
   function drawTooltipImages(svg, jsonTimeLine) {
-    jsonTimeLine.life_parts.forEach( function(lifePeriod, i) {
-      new TooltipImages(svg, lifePeriod, i);
-    });
+    jsonTimeLine.life_parts.forEach(
+      (lifePeriod, i) => new TooltipImages(svg, lifePeriod, i)
+    );
   }
 
   /** Prepares the "filter" used to draw shadows (for the white circles for instance).
    *
-   * This is almost a perfect copy of this code snipet:
+   * This is almost a perfect copy of this code snippet:
    *    http://bl.ocks.org/cpbotha/5200394.
    *
    * To apply it to an element, it's then enough to add this style:
@@ -50,9 +50,9 @@ function TimeLine(svg, dataPath, x, y) {
    */
   function prepareShadows(svg) {
 
-    var defs = svg.append("defs");
+    let defs = svg.append("defs");
 
-    var filter = defs.append("filter")
+    let filter = defs.append("filter")
       .attr("id", "drop-shadow")
       .attr("width", "300%").attr("height", "300%");
 
@@ -66,7 +66,7 @@ function TimeLine(svg, dataPath, x, y) {
       .attr("dx", 2.5).attr("dy", 2.5)
       .attr("result", "offsetBlur");
 
-    var feMerge = filter.append("feMerge");
+    let feMerge = filter.append("feMerge");
     feMerge.append("feMergeNode").attr("in", "offsetBlur");
     feMerge.append("feMergeNode").attr("in", "SourceGraphic");
   }

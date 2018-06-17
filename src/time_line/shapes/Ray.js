@@ -9,31 +9,30 @@ function Ray(svg, lifePeriod, i) {
   svg.selectAll("line_period_" + i)
     .data(lifePeriod.rays)
     .enter().append("line")
-    .attr("x1", function(d) { return d.x1; })
-    .attr("y1", function(d) { return d.y1; })
+    .attr("x1", d => d.x1)
+    .attr("y1", d => d.y1)
     // x2 and y2 are initialized as x1 and y1, but are modified by the transition
-    .attr("x2", function(d) { return d.x1; })
-    .attr("y2", function(d) { return d.y1; })
-    .attr("stroke", function(d) { return d.ray.color; })
-    .attr("stroke-width", function(d) { return d.ray.width; })
+    .attr("x2", d => d.x1)
+    .attr("y2", d => d.y1)
+    .attr("stroke", d => d.ray.color)
+    .attr("stroke-width", d => d.ray.width)
     .attr("fill", "none")
     .transition()
     .duration(1300)
-    .attr("x2", function(d) { return d.x2; })
-    .attr("y2", function(d) { return d.y2; });
+    .attr("x2", d => d.x2)
+    .attr("y2", d => d.y2);
 
   // The drawing of the text:
   svg.selectAll("text_period_" + i)
     // Some rays don't have text:
-    .data(lifePeriod.rays.filter( function(d) { return d.text; } ))
+    .data(lifePeriod.rays.filter(d => d.text))
     .enter().append("text")
-    .text( function(d) { return d.text.label; })
-    .attr("class", function(d) { return d.class; })
-    .attr("transform", function(d) {
+    .text(d => d.text.label)
+    .attr("class", d => d.class)
+    .attr("transform", d => {
 
-      // In order to put the text to the left or the right of
-      // the ray:
-      var angle = d.text.reverse_text ? d.angle : 180 + d.angle;
+      // In order to put the text to the left or the right of the ray:
+      let angle = d.text.reverse_text ? d.angle : 180 + d.angle;
 
       return (
         // Move to the end of the ray (should be x2 and y2,
@@ -46,19 +45,15 @@ function Ray(svg, lifePeriod, i) {
         "translate(0,-10)"
       );
     })
-    .attr("dy", function(d) { return d.text.dy + "em"; })
-    .attr("text-anchor", function(d) {
-      return d.text.reverse_text ? "end" : "begin";
-    })
-    .style("font-family", function(d) { return d.text.font; })
-    .style("font-size", function(d) { return d.text.size + "px"; })
-    .style("cursor", function(d) {
-      return d.redirect ? "pointer" : "default";
-    })
+    .attr("dy", d => d.text.dy + "em")
+    .attr("text-anchor", d => d.text.reverse_text ? "end" : "begin")
+    .style("font-family", d => d.text.font)
+    .style("font-size", d => d.text.size + "px")
+    .style("cursor", d => d.redirect ? "pointer" : "default")
     .attr("stroke", "white")
-    .on("mouseover", function(d) {
+    .on("mouseover", d => {
       if (d.mouseover_images)
-        d.mouseover_images.forEach( function(y) {
+        d.mouseover_images.forEach(y => {
           // The image's shadow:
           d3.select("#shadow_" + y.path.replace(/\//g, "_").replace(/.png/g, ""))
             .style("opacity", 0.60); // 0.24 for a light shadow
@@ -66,9 +61,9 @@ function Ray(svg, lifePeriod, i) {
           d3.select("#" + y.path.replace(/\//g, "_").replace(/.png/g, ""))
             .style("opacity", 1);
         });
-    }).on("mouseout", function(d) {
+    }).on("mouseout", d => {
       if (d.mouseover_images)
-        d.mouseover_images.forEach( function(y) {
+        d.mouseover_images.forEach(y => {
           // The image's shadow:
           d3.select("#shadow_" + y.path.replace(/\//g, "_").replace(/.png/g, ""))
             .style("opacity", 0);
@@ -77,16 +72,16 @@ function Ray(svg, lifePeriod, i) {
             .style("opacity", 0);
         });
     })
-    .on("click", function(d) { if (d.redirect) window.open(d.redirect, "_blank"); })
+    .on("click", d => { if (d.redirect) window.open(d.redirect, "_blank"); })
     .transition()
     .duration(1300)
-    .attr("stroke", function(d) { return d.text.color; })
-    .attr("transform", function(d) {
+    .attr("stroke", d => d.text.color)
+    .attr("transform", d => {
 
-      var angle = d.text.reverse_text ? d.angle : 180 + d.angle;
+      let angle = d.text.reverse_text ? d.angle : 180 + d.angle;
 
-      // Same as the initialisation transformation, except it
-      // defines the final position of the text:
+      // Same as the initialisation transformation, except it defines the final
+      // position of the text:
       return (
         "translate(" + d.x2 + "," + d.y2 + ")" +
         "rotate(" + angle + ")" +
@@ -100,8 +95,8 @@ function Ray(svg, lifePeriod, i) {
     gravity: "sw",
     opacity: 1.0,
     title: function() {
-      var d = this.__data__;
-      return "<div style=\"color:light-grey;font-size:14px;text-align:center\">" + d.tooltip + "</div>";
+      let d = this.__data__;
+      return "<div style=\"color:lightgrey;font-size:14px;text-align:center\">" + d.tooltip + "</div>";
     }
   });
 }

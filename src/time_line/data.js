@@ -1,6 +1,6 @@
 /** Decorates the timeline data extracted from json with higher level dimensions.
  *
- * For instance, some divs have their id precomputed, angles in degre are
+ * For instance, some divs have their id precomputed, angles in degree are
  * casted into radian.
  *
  * @author: Xavier Guihot
@@ -31,7 +31,7 @@ function decorateData(jsonTimeLine) {
         else
           d.text_radius = d.inner_radius + jsonTimeLine.arc_width / 2 - 4;
 
-        // To know wheter to display a tooltip or not:
+        // To know whether to display a tooltip or not:
         d.class = d.tooltip ? "tooltiped" : "not-tooltiped";
 
         d.id = "period-" + i + "-ray-" + j;
@@ -64,7 +64,7 @@ function decorateData(jsonTimeLine) {
         if (d.text && d.text.reverse_text === undefined)
           d.text.reverse_text = false;
 
-        // To know wheter to display a tooltip or not:
+        // To know whether to display a tooltip or not:
         d.class = d.tooltip ? "tooltiped" : "not-tooltiped";
 
         return d;

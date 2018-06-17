@@ -7,7 +7,7 @@
 <svg></svg>
 
 <!-- d3 -->
-<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://d3js.org/d3-scale.v1.min.js"></script>
 <!-- The library which draws the word cloud -->
 <script src="https://cdn.rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
@@ -35,26 +35,23 @@
 d3.select("body").style("background-color", "#F1E9ED");
 
 // The top div which contains the whole graph:
-var svg = d3.select("svg")
+let svg = d3.select("svg")
   // The following attributes allow me to size/scale back the graph based on
   // the user's browser own window size:
   .attr("preserveAspectRatio", "xMinYMin meet")
   .attr("viewBox", "0 0 1250 1350")
   .classed("svg-content", true)
-  .append("g")
-
-// During dev, set this to false in order not to dos external providers:
-let activateApiCalls = true;
+  .append("g");
 
 // The order matters for svg z-index equivalent:
-var textImagesSvg = svg.append("g");
-var cloudSvg = svg.append("g");
-var timeLineSvg = svg.append("g");
-var soSvg = svg.append("g");
+let textImagesSvg = svg.append("g");
+let cloudSvg = svg.append("g");
+let timeLineSvg = svg.append("g");
+let soSvg = svg.append("g");
 
 new TextsAndImages(textImagesSvg, "data/random_text_and_images.json", 625, 0);
 new TimeLine(timeLineSvg, "data/time_line.json", -85, 50);
 new WordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
-new StackOverflowFlair(soSvg, activateApiCalls, 870, 1125);
+new StackOverflowFlair(soSvg, 870, 1125);
 
 </script>

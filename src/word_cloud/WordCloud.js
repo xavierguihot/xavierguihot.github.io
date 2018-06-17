@@ -14,29 +14,29 @@
  */
 function WordCloud(svg, dataPath, x, y) {
 
-  var fill = d3.scaleOrdinal(d3.schemeCategory20);
+  let fill = d3.scaleOrdinal(d3.schemeCategory20);
 
-  d3.json(dataPath, function(data) {
+  d3.json(dataPath).then( function(data) {
 
     // Let's parse json data and add the size a word will take:
-    var wordCloud = data.map( function(d) {
+    let wordCloud = data.map( function(d) {
       return { text: d.word, size: 6 + d.score * 2.5, score: d.score };
     });
 
-    var layout = d3.layout.cloud()
+    let layout = d3.layout.cloud()
       .size([600, 750])
       .words(wordCloud)
       .padding(2) // I prefer smaller spaces between words
       .rotate( function(d) {
         // I want words with higher score to be horizontal:
         if (d.score >= 10) return 0;
-        // and my small words (in length) to be horizontal as weel:
+        // and my small words (in length) to be horizontal as well:
         else if (d.text.length <= 2) return 0;
-        // and others to be randomely horizontal or vertical:
+        // and others to be randomly horizontal or vertical:
         else return ~~(Math.random() * 2) * -90;
       })
       .font("Impact")
-      .fontSize( function(d) { return d.size; })
+      .fontSize(d => d.size)
       .on("end", draw);
 
     layout.start();
@@ -48,20 +48,20 @@ function WordCloud(svg, dataPath, x, y) {
         .selectAll("text")
         .data(words)
         .enter().append("text")
-        .attr("id", function(d) { return d.text; })
+        .attr("id", d => d.text)
         .style("font-family", "Impact")
-        .style("fill", function(d, i) { return fill(i); })
+        .style("fill", (d, i) => fill(i))
         .attr("text-anchor", "middle")
-        .attr("transform", function(d) {
-          return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
-        })
-        .text(function(d) { return d.text; })
+        .attr("transform",
+          d => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"
+        )
+        .text(d => d.text)
         // We prepare the apparition of labels:
-        .style("font-size", function(d) { return "0px"; })
+        .style("font-size", "0px")
         // And perform their apparition ("pop-up"):
         .transition()
         .duration(1000)
-        .style("font-size", function(d) { return d.size + "px"; });
+        .style("font-size", d => d.size + "px");
     }
   });
 }

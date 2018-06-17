@@ -4,7 +4,7 @@ function TextsAndImages(svg, dataPath, x, y) {
   var textAndImagesContainer = svg.append("g")
     .attr("transform", "translate(" + x + "," + y + ")");
 
-  d3.json(dataPath, function(json) {
+  d3.json(dataPath).then( function(json) {
 
     textAndImagesContainer.selectAll("random_text")
       .data(json.sentences)
