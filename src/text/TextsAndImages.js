@@ -17,7 +17,7 @@ function TextsAndImages(svg, dataPath, x, y) {
       .style("font-size", d => d.size + "px")
       .style("font-weight", d => d.weight)
       .style("fill", d => d.color)
-      .style("text-decoration", d => d.link ? "underline": undefined)
+      .style("text-decoration", d => d.link ? "underline" : undefined)
       .on("click", d => { if (d.link) window.open(d.link, "_blank"); });
 
     textAndImagesContainer.selectAll("random_image")
@@ -29,5 +29,11 @@ function TextsAndImages(svg, dataPath, x, y) {
       .attr("height", d => d.height)
       .style("cursor", d => d.link ? "pointer" : "default")
       .on("click", d => { if (d.link) window.open(d.link, "_blank"); });
+
+    // The location icon:
+    textAndImagesContainer.append("path")
+      .attr("d", "M8.1 17.7S2 9.9 2 6.38A6.44 6.44 0 0 1 8.5 0C12.09 0 15 2.86 15 6.38 15 9.91 8.9 17.7 8.9 17.7c-.22.29-.58.29-.8 0zm.4-8.45a2.75 2.75 0 1 0 0-5.5 2.75 2.75 0 0 0 0 5.5z")
+      .attr("transform", "translate(-525,1085)")
+      .style("fill", "#6A737C");
   });
 }
