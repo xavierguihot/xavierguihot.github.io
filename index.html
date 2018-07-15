@@ -31,6 +31,7 @@
 <script type="text/javascript" src="src/time_line/data.js"></script>
 <script type="text/javascript" src="src/text/TextsAndImages.js"></script>
 <script type="text/javascript" src="src/divers/StackOverflow.js"></script>
+<script type="text/javascript" src="src/divers/Github.js"></script>
 <script>
 
 d3.select("body").style("background-color", "#F1E9ED");
@@ -49,10 +50,12 @@ let textImagesSvg = svg.append("g");
 let cloudSvg = svg.append("g");
 let timeLineSvg = svg.append("g");
 let soSvg = svg.append("g");
+let githubSvg = svg.append("g");
 
 new TextsAndImages(textImagesSvg, "data/random_text_and_images.json", 625, 0);
 new TimeLine(timeLineSvg, "data/time_line.json", -85, 50);
 new WordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
 new StackOverflowFlair(soSvg, 870, 1135);
+new GithubFlair("xavierguihot", githubSvg, 960, 1000);
 
 </script>
