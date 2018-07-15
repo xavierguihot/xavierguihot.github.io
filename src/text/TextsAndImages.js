@@ -2,7 +2,12 @@
 function TextsAndImages(svg, dataPath, x, y) {
 
   let textAndImagesContainer = svg.append("g")
-    .attr("transform", "translate(" + x + "," + y + ")");
+    .attr("transform", "translate(" + x + "," + y + ")")
+    .style("opacity", 0);
+
+  textAndImagesContainer
+    .transition().duration(1300)
+    .style("opacity", 1);
 
   d3.json(dataPath).then( function(json) {
 
