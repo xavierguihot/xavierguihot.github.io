@@ -27,6 +27,7 @@ function drawWhiteCircles(svg, jsonTimeLine) {
     .style("font-family", "Heebo")
     .style("font-size", "12px")
     .style("font-weight", "bold")
+    .style("user-select", "none")
     .text(d => d.label);
 
   // The white circles' optional underlying part of dates (e.g. apr.-oct.):
@@ -38,5 +39,6 @@ function drawWhiteCircles(svg, jsonTimeLine) {
     .style("font-size", "10px")
     .style("fill", "slategrey")
     .style("font-weight", "bold")
+    .style("user-select", "none")
     .text(d => d.sub_label);
 }

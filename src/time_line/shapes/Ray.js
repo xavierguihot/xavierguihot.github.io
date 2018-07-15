@@ -50,6 +50,7 @@ function Ray(svg, lifePeriod, i) {
     .style("font-family", d => d.text.font)
     .style("font-size", d => d.text.size + "px")
     .style("cursor", d => d.redirect ? "pointer" : "default")
+    .style("user-select", "none")
     .attr("stroke", "white")
     .on("mouseover", d => {
       if (d.mouseover_images)

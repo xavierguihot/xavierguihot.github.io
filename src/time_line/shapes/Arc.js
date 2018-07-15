@@ -154,6 +154,7 @@ function drawArcs(svg, jsonTimeLine) {
       .attr("font-family", "Heebo")
       .attr("font-weight", "bold")
       .attr("fill", "white")
+      .style("user-select", "none")
       .text(d => d.text.label)
       .transition()
       .duration(1300)

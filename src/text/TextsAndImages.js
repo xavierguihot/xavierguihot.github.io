@@ -14,7 +14,11 @@ function TextsAndImages(svg, dataPath, x, y) {
     textAndImagesContainer.selectAll("random_text")
       .data(json.sentences)
       .enter().append("a")
-      .style("cursor", d => d.link ? "pointer" : "default")
+      .style("cursor", d => {
+        if (d.text.endsWith("@protonmail.com")) return "text";
+        if (d.link) return "pointer";
+        return "default";
+      })
       .append("text")
       .text(d => d.text)
       .attr("transform", d => "translate(" + d.x + "," + d.y + ")")
@@ -23,6 +27,7 @@ function TextsAndImages(svg, dataPath, x, y) {
       .style("font-weight", d => d.weight)
       .style("fill", d => d.color)
       .style("text-decoration", d => d.link ? "underline" : undefined)
+      .style("user-select", d => d.text.endsWith("@protonmail.com") ? undefined : "none")
       .on("click", d => { if (d.link) window.open(d.link, "_blank"); });
 
     textAndImagesContainer.selectAll("random_image")
