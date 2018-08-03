@@ -11,18 +11,18 @@ function GithubFlair(user, svg, x, y) {
       .attr("id", "github-flair")
       .attr("transform", "translate(" + x + "," + y + ")");
 
-  flairContainer.append("svg:image")
-    .attr("id", "github-flair-image")
-    .attr("xlink:href", "img/profile_so.png")
-    .attr("width", 24)
-    .attr("height", 24);
-
   d3.json(REPOS_INFO).then( function(json) {
 
     const userRepos = json.filter(r => r.owner.login === user).filter(r => !r.fork);
 
     const stars = userRepos.map(r => r.stargazers_count).sum();
     const forks = userRepos.map(r => r.forks_count).sum();
+
+    flairContainer.append("svg:image")
+      .attr("id", "github-flair-image")
+      .attr("xlink:href", "img/profile_so.png")
+      .attr("width", 24)
+      .attr("height", 24);
 
     flairContainer.append("path")
       .attr("id", "github-flair-stars-icon")
