@@ -51,7 +51,8 @@ function WordCloud(svg, dataPath, x, y) {
         .attr("id", d => d.text)
         .style("font-family", "Impact")
         .style("fill", (d, i) => fill(i))
-        .attr("text-anchor", "middle")
+        .style("text-anchor", "middle")
+        .style("user-select", "none")
         .attr("transform",
           d => "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"
         )

@@ -57,6 +57,7 @@ function StackOverflowFlair(svg, x, y) {
       .style("fill", color)
       .style("font-weight", bold ? "bold": null)
       .style("font-family", "Arial, \"Helvetica Neue\", Helvetica, sans-serif\n")
-      .style("font-size", size + "px");
+      .style("font-size", size + "px")
+      .style("user-select", "none");
   }
 }
