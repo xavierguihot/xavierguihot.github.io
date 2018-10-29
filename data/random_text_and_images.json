@@ -10,51 +10,56 @@
     },
     {
       "text": "London, UK", "size": 15, "color": "#4e5056",
-      "font": "Ubuntu", "weight": "default", "x": -500, "y": 1100
+      "font": "Ubuntu", "weight": "default", "x": -525, "y": 925
     },
     {
       "text": "xavier.guihot@protonmail.com", "size": 15, "color": "#4e5056",
-      "font": "Ubuntu", "weight": "default", "x": -500, "y": 1125
+      "font": "Ubuntu", "weight": "default", "x": -525, "y": 950
     }
   ],
   "images": [
     {
       "path": "img/linkedin.png",
-      "x": -138, "y": 166, "width": 71, "height": 16,
+      "x": -153, "y": 166, "width": 71, "height": 16,
       "link": "https://www.linkedin.com/in/xavierguihot"
     },
     {
       "path": "img/github.png",
-      "x": -142, "y": 166, "width": 16, "height": 16,
+      "x": -157, "y": 166, "width": 16, "height": 16,
       "link": "https://github.com/xavierguihot"
     },
     {
       "path": "img/resume.png",
-      "x": -82, "y": 166, "width": 16, "height": 16,
+      "x": -97, "y": 166, "width": 16, "height": 16,
       "link": "http://xavierguihot.com/jsonresume-theme-stackoverflow"
     },
     {
       "path": "img/so-icon.png",
-      "x": -57, "y": 160.5, "width": 28, "height": 28,
+      "x": -72, "y": 160.5, "width": 28, "height": 28,
       "link": "https://stackoverflow.com/users/9297144/xavier-guihot"
     },
     {
       "path": "img/hackerrank.png",
-      "x": -22, "y": 166, "width": 16, "height": 16,
+      "x": -37, "y": 166, "width": 16, "height": 16,
       "link": "https://www.hackerrank.com/xavier_guihot"
     },
     {
       "path": "img/freelancer.ico",
-      "x": 8, "y": 166, "width": 16, "height": 16,
+      "x": -6, "y": 166, "width": 16, "height": 16,
       "link": "https://freelancer.com/u/XavierGht.html"
     },
     {
+      "path": "img/codewars.ico",
+      "x": 25, "y": 166, "width": 16, "height": 16,
+      "link": "https://www.codewars.com/users/xavierguihot/stats"
+    },
+    {
       "path": "img/profile.png",
-      "x": -500, "y": 913, "width": 160, "height": 162
+      "x": -525, "y": 780, "width": 120, "height": 121
     },
     {
       "path": "img/protonmail.png",
-      "x": -525, "y": 1112, "width": 16, "height": 16
+      "x": -550, "y": 937, "width": 16, "height": 16
     },
     {
       "path": "img/france_paris.png",

@@ -754,6 +754,17 @@
           "length": 190, "angle": 250,
           "text": { "label": "April", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 253, "angle": 200,
+          "text": {
+            "label": "Joined Codewars", "color": "grey", "size": 12,
+            "dy": 0.6, "font": "Esteban"
+          },
+          "tooltip": "",
+          "redirect": "https://www.codewars.com/users/xavierguihot/stats",
+          "mouseover_images": [],
+          "ray": { "width": 1, "color": "lightsteelblue" }
         }
       ],
       "arcs": [
