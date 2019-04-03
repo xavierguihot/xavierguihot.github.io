@@ -5,7 +5,7 @@
 
 ## Overview
 
-Version: 1.0.4 - 2018-10-29
+Version: 1.0.5 - 2018-10-29
 
 My personal page (resume) built with the powerful d3 library and inspired from
 this pretty [info-design](https://www.behance.net/gallery/7990211/Infographic-Design)

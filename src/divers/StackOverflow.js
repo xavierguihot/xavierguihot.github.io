@@ -22,15 +22,15 @@ function StackOverflowFlair(svg, x, y) {
     addText(flairContainer, "●", "#fcca01", 71, 16, 15);
     addText(flairContainer, json.items[0].badge_counts.gold, "#cda400", 81, 16, 12);
 
-    addText(flairContainer, "●", "#8c9298", 95, 16, 15);
-    addText(flairContainer, json.items[0].badge_counts.silver, "#8c9298", 105, 16, 12);
+    addText(flairContainer, "●", "#8c9298", 100, 16, 15);
+    addText(flairContainer, json.items[0].badge_counts.silver, "#8c9298", 110, 16, 12);
 
-    addText(flairContainer, "●", "#c38b5f", 125, 16, 15);
-    addText(flairContainer, json.items[0].badge_counts.bronze, "#c38b5f", 135, 16, 12);
+    addText(flairContainer, "●", "#c38b5f", 130, 16, 15);
+    addText(flairContainer, json.items[0].badge_counts.bronze, "#c38b5f", 140, 16, 12);
 
     flairContainer.append("svg:image")
       .attr("xlink:href", "img/so-icon.png")
-      .attr("x", 153)
+      .attr("x", 158)
       .attr("y", -3)
       .attr("width", 28)
       .attr("height", 28);
@@ -38,7 +38,7 @@ function StackOverflowFlair(svg, x, y) {
     flairContainer.append("rect")
       .attr("x", 0)
       .attr("y", 0)
-      .attr("width", 180)
+      .attr("width", 185)
       .attr("height", 24)
       .style("fill", "none")
       .attr("pointer-events", "all")

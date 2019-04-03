@@ -4,10 +4,7 @@
  * which is itself based on d3 (https://d3js.org/).
  *
  * The size of competences is more of an instantaneous snapshot of my knowledge
- * than a cumulative time spent on a subject (I spent thousands of hours working
- * with Java (more than Scala), but since I haven't used it much these past
- * years, I wouldn't be able to write a single line without StackOverflow, and
- * thus Java is less emphasized in this word graph).
+ * than a cumulative time spent on a subject.
  *
  * @author: Xavier Guihot
  * @since:  2017-07
@@ -20,7 +17,7 @@ function WordCloud(svg, dataPath, x, y) {
 
     // Let's parse json data and add the size a word will take:
     let wordCloud = data.map( function(d) {
-      return { text: d.word, size: 6 + d.score * 2.5, score: d.score };
+      return { text: d.word, size: 5 + d.score * 2.5, score: d.score };
     });
 
     let layout = d3.layout.cloud()
