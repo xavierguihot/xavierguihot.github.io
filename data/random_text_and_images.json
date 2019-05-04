@@ -20,38 +20,33 @@
   "images": [
     {
       "path": "img/linkedin.png",
-      "x": -153, "y": 166, "width": 71, "height": 16,
+      "x": -136, "y": 166, "width": 71, "height": 16,
       "link": "https://www.linkedin.com/in/xavierguihot"
     },
     {
       "path": "img/github.png",
-      "x": -157, "y": 166, "width": 16, "height": 16,
+      "x": -140, "y": 166, "width": 16, "height": 16,
       "link": "https://github.com/xavierguihot"
     },
     {
       "path": "img/resume.png",
-      "x": -97, "y": 166, "width": 16, "height": 16,
+      "x": -80, "y": 166, "width": 16, "height": 16,
       "link": "http://xavierguihot.com/jsonresume-theme-stackoverflow"
     },
     {
       "path": "img/so-icon.png",
-      "x": -72, "y": 160.5, "width": 28, "height": 28,
+      "x": -55, "y": 160.5, "width": 28, "height": 28,
       "link": "https://stackoverflow.com/users/9297144/xavier-guihot"
     },
     {
-      "path": "img/hackerrank.png",
-      "x": -37, "y": 166, "width": 16, "height": 16,
-      "link": "https://www.hackerrank.com/xavier_guihot"
+      "path": "img/codewars.ico",
+      "x": -20, "y": 166, "width": 16, "height": 16,
+      "link": "https://www.codewars.com/users/xavierguihot/stats"
     },
     {
       "path": "img/freelancer.ico",
-      "x": -6, "y": 166, "width": 16, "height": 16,
+      "x": 11, "y": 166, "width": 16, "height": 16,
       "link": "https://freelancer.com/u/XavierGht.html"
-    },
-    {
-      "path": "img/codewars.ico",
-      "x": 25, "y": 166, "width": 16, "height": 16,
-      "link": "https://www.codewars.com/users/xavierguihot/stats"
     },
     {
       "path": "img/profile.png",

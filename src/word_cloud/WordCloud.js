@@ -12,6 +12,7 @@
 function WordCloud(svg, dataPath, x, y) {
 
   let fill = d3.scaleOrdinal(d3.schemeCategory20);
+  let specialFill = { "scala": "#DC322F", "d3.js": "#F5824C", "python": "#FFDB4E", "spark": "#2FA4E7", "mongodb": "#68B245" }
 
   d3.json(dataPath).then( function(data) {
 
@@ -47,7 +48,7 @@ function WordCloud(svg, dataPath, x, y) {
         .enter().append("text")
         .attr("id", d => d.text)
         .style("font-family", "Impact")
-        .style("fill", (d, i) => fill(i))
+        .style("fill", (d, i) => specialFill[d.text] || fill(i))
         .style("text-anchor", "middle")
         .style("user-select", "none")
         .attr("transform",
