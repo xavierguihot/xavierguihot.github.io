@@ -42,7 +42,7 @@ let svg = d3.select("svg")
   // The following attributes allow me to size/scale back the graph based on
   // the user's browser own window size:
   .attr("preserveAspectRatio", "xMinYMin meet")
-  .attr("viewBox", "0 0 1250 1350")
+  .attr("viewBox", "0 0 1250 1475")
   .classed("svg-content", true)
   .append("g");
 
@@ -59,6 +59,6 @@ new TimeLine(timeLineSvg, "data/time_line.json", -85, 50);
 new WordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 290);
 new StackOverflowFlair(soSvg, 870, 1135);
 new GithubFlair("xavierguihot", githubSvg, 960, 1000);
-new CodewarsFlair("xavierguihot", codewarsSvg, 300, 1029);
+new CodewarsFlair("xavierguihot", codewarsSvg, 366, 1039);
 
 </script>

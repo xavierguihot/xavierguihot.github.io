@@ -78,7 +78,11 @@
     },
     {
       "path": "img/uk_london.png",
-      "x": 15, "y": 1143, "width": 30, "height": 30
+      "x": 71, "y": 1143.5, "width": 30, "height": 30
+    },
+    {
+      "path": "img/uk_london.png",
+      "x": -131.8, "y": 1259.8, "width": 30, "height": 30
     },
     {
       "path": "img/sweden_karlstad.png",

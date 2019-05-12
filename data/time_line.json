@@ -387,7 +387,7 @@
             {
               "path": "img/structures.png",
               "x": 820, "y": 350, "width": 320, "height": 224
-            } 
+            }
           ]
         },
         {
@@ -678,7 +678,7 @@
       ],
       "arcs": [
         {
-          "inner_radius": 111, "start_angle": 320, "end_angle": 560,
+          "inner_radius": 111, "start_angle": 320, "end_angle": 546,
           "text": {
             "label": "Professional Experiences", "reverse_text": false, "color": "#a6a6a6"
           },
@@ -688,7 +688,7 @@
           ]
         },
         {
-          "inner_radius": 132, "start_angle": 335, "end_angle": 540,
+          "inner_radius": 132, "start_angle": 335, "end_angle": 528,
           "text": {
             "label": "AMADEUS", "reverse_text": false, "color": "grey", "size": 11
           },
@@ -745,18 +745,18 @@
       ]
     },
     {
-      "center_x": 742,
-      "center_y": 1081.7,
+      "center_x": 798,
+      "center_y": 1081.2,
       "draw_white_circle": true,
       "label": "2018",
       "rays": [
         {
-          "length": 190, "angle": 250,
+          "length": 178, "angle": 250,
           "text": { "label": "April", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
         },
         {
-          "length": 253, "angle": 200,
+          "length": 240, "angle": 198,
           "text": {
             "label": "Joined Codewars", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban"
@@ -765,31 +765,30 @@
           "redirect": "https://www.codewars.com/users/xavierguihot/stats",
           "mouseover_images": [],
           "ray": { "width": 1, "color": "lightsteelblue" }
+        },
+        {
+          "length": 178, "angle": 175,
+          "text": {
+            "label": "2019", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6
+          },
+          "ray": { "width": 1, "color": "grey" }
         }
       ],
       "arcs": [
         {
-          "inner_radius": 115, "start_angle": 378, "end_angle": 100,
+          "inner_radius": 102, "start_angle": 366, "end_angle": 240,
           "gradient_colors": [
             { "color": "#751aff", "offset": 0 },
-            { "color": "#751aff", "offset": 36 },
-            { "color": "#F1E9ED", "offset": 100, "dissipation": true }
+            { "color": "#751aff", "offset": 100 }
           ],
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 105, "start_angle": 100, "end_angle": 160,
-          "gradient_colors": [
-            { "color": "#F1E9ED", "offset": 0, "dissipation": true },
-            { "color": "#F1E9ED", "offset": 100, "dissipation": true }
-          ],
-          "shadow_dissipation": true
-        },
-        {
-          "inner_radius": 136, "start_angle": 340, "end_angle": 220,
+          "inner_radius": 123, "start_angle": 340, "end_angle": 255,
           "text": {
             "label": "ADTHENA", "reverse_text": true, "color": "grey", "size": 11,
-            "startOffset": "90%"
+            "startOffset": "85%"
           },
           "tooltip": "",
           "redirect": "https://www.adthena.com",
@@ -797,10 +796,54 @@
           "gradient_colors": [
             { "color": "#2c0066", "offset": 0 },
             { "color": "#2298de", "offset": 25 },
-            { "color": "#00bb6a", "offset": 30 },
-            { "color": "#F1E9ED", "offset": 50, "dissipation": true }
+            { "color": "#00bb6a", "offset": 55 }
           ],
           "shadow_dissipation": true
+        }
+      ]
+    },
+    {
+      "center_x": 595.2,
+      "center_y": 1197.5,
+      "draw_white_circle": true,
+      "label": "2019",
+      "arcs": [
+        {
+          "inner_radius": 111, "start_angle": 60, "end_angle": 250,
+          "gradient_colors": [
+            { "color": "#F1E9ED", "offset": 0, "dissipation": true },
+            { "color": "#751aff", "offset": 80 }
+          ],
+          "gradient_rotation": 345,
+          "shadow_dissipation": true
+        },
+        {
+          "inner_radius": 132, "start_angle": 100, "end_angle": 200,
+          "text": {
+            "label": "DICE", "reverse_text": false, "color": "grey", "size": 11,
+            "startOffset": "1%"
+          },
+          "tooltip": "",
+          "redirect": "http://www.diceplatform.com",
+          "mouseover_images": [],
+          "gradient_colors": [
+            { "color": "#2c0066", "offset": 0 },
+            { "color": "#2298de", "offset": 20 },
+            { "color": "#00bb6a", "offset": 45 },
+            { "color": "#F1E9ED", "offset": 75, "dissipation": true }
+          ],
+          "gradient_rotation": 100,
+          "shadow_dissipation": true
+        }
+      ],
+      "rays": [
+        {
+          "length": 204, "angle": 10,
+          "text": {
+            "label": "February", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
         }
       ]
     }

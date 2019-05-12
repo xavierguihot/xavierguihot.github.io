@@ -15,7 +15,7 @@ function decorateData(jsonTimeLine) {
 
       lifePeriod.arcs = lifePeriod.arcs.map( function(d, j) {
 
-        d.gradient_rotation = ((d.start_angle + d.end_angle) % 360) / 2;
+        d.gradient_rotation = d.gradient_rotation ? d.gradient_rotation : ((d.start_angle + d.end_angle) % 360) / 2;
 
         // The arc start and finish angles, casted in radian:
         d.start_angle = Math.radians(d.start_angle);
