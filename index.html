@@ -49,10 +49,10 @@ let svg = d3.select("svg")
 // The order matters for svg z-index equivalent:
 let textImagesSvg = svg.append("g");
 let cloudSvg = svg.append("g");
-let timeLineSvg = svg.append("g");
 let soSvg = svg.append("g");
 let githubSvg = svg.append("g");
 let codewarsSvg = svg.append("g");
+let timeLineSvg = svg.append("g");
 
 new TextsAndImages(textImagesSvg, "data/random_text_and_images.json", 625, 0);
 new TimeLine(timeLineSvg, "data/time_line.json", -85, 50);

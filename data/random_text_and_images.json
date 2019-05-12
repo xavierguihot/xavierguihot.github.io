@@ -69,20 +69,45 @@
       "x": -132, "y": 516, "width": 30, "height": 30
     },
     {
+      "path": "img/supaero_logo.png",
+      "x": -135, "y": 463, "width": 35, "height": 27,
+      "opacity": 0.6
+    },
+    {
       "path": "img/france_toulouse.png",
       "x": -51, "y": 745, "width": 30, "height": 30
+    },
+    {
+      "path": "img/airbus_logo.png",
+      "x": -49, "y": 680, "width": 27, "height": 27,
+      "opacity": 0.6
     },
     {
       "path": "img/france_nice.png",
       "x": 97, "y": 910, "width": 30, "height": 30
     },
     {
+      "path": "img/amadeus_logo.png",
+      "x": 100, "y": 858, "width": 24, "height": 24,
+      "opacity": 0.5
+    },
+    {
       "path": "img/uk_london.png",
       "x": 71, "y": 1143.5, "width": 30, "height": 30
     },
     {
+      "path": "img/adthena_logo.png",
+      "x": 73, "y": 1090, "width": 27, "height": 27,
+      "opacity": 0.6
+    },
+    {
       "path": "img/uk_london.png",
       "x": -131.8, "y": 1259.8, "width": 30, "height": 30
+    },
+    {
+      "path": "img/dice_logo.png",
+      "x": -129, "y": 1206.3, "width": 27, "height": 27,
+      "opacity": 0.6
     },
     {
       "path": "img/sweden_karlstad.png",

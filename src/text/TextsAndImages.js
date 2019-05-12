@@ -37,6 +37,7 @@ function TextsAndImages(svg, dataPath, x, y) {
       .attr("transform", d => "translate(" + d.x + "," + d.y + ")")
       .attr("width", d => d.width)
       .attr("height", d => d.height)
+      .style("opacity", d => d.opacity || 1.0)
       .style("cursor", d => d.link ? "pointer" : "default")
       .on("click", d => { if (d.link) window.open(d.link, "_blank"); });
 
