@@ -19,18 +19,18 @@ function StackOverflowFlair(svg, x, y) {
       json.items[0].reputation.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     addText(flairContainer, reputation, "#535a60", 33, 16, 12, true);
 
-    addText(flairContainer, "●", "#fcca01", 71, 16, 15);
-    addText(flairContainer, json.items[0].badge_counts.gold, "#cda400", 81, 16, 12);
+    addText(flairContainer, "●", "#fcca01", 76, 16, 15);
+    addText(flairContainer, json.items[0].badge_counts.gold, "#cda400", 86, 16, 12);
 
-    addText(flairContainer, "●", "#8c9298", 100, 16, 15);
-    addText(flairContainer, json.items[0].badge_counts.silver, "#8c9298", 110, 16, 12);
+    addText(flairContainer, "●", "#8c9298", 105, 16, 15);
+    addText(flairContainer, json.items[0].badge_counts.silver, "#8c9298", 115, 16, 12);
 
-    addText(flairContainer, "●", "#c38b5f", 130, 16, 15);
-    addText(flairContainer, json.items[0].badge_counts.bronze, "#c38b5f", 140, 16, 12);
+    addText(flairContainer, "●", "#c38b5f", 135, 16, 15);
+    addText(flairContainer, json.items[0].badge_counts.bronze, "#c38b5f", 145, 16, 12);
 
     flairContainer.append("svg:image")
       .attr("xlink:href", "img/so-icon.png")
-      .attr("x", 158)
+      .attr("x", 163)
       .attr("y", -3)
       .attr("width", 28)
       .attr("height", 28);
@@ -38,7 +38,7 @@ function StackOverflowFlair(svg, x, y) {
     flairContainer.append("rect")
       .attr("x", 0)
       .attr("y", 0)
-      .attr("width", 185)
+      .attr("width", 190)
       .attr("height", 24)
       .style("fill", "none")
       .attr("pointer-events", "all")
