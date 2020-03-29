@@ -603,15 +603,6 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
-          "length": 270, "angle": 355,
-          "text": {
-            "label": "Library development", "color": "grey", "size": 12,
-            "dy": 0.6, "font": "Esteban", "reverse_text": true
-          },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Scala Libraries</div>https://github.com/xavierguihot<br>Mainly related to Spark<br><br>Some of them are open source:<br><br>Geobase: wrapper around opentraveldata<br>(geo/travel data).<br><br>SparkHelper: low-level methods for data<br>processing and monitoring with Spark",
-          "ray": { "width": 1, "color": "lightsteelblue" }
-        },
-        {
           "length": 188, "angle": 4,
           "text": {
             "label": "2017", "color": "#00b8e6", "font": "Esteban",
@@ -642,17 +633,6 @@
           },
           "tooltip": "",
           "redirect": "https://github.com/xavierguihot",
-          "mouseover_images": [],
-          "ray": { "width": 1, "color": "lightsteelblue" }
-        },
-        {
-          "length": 258, "angle": 42,
-          "text": {
-            "label": "Joined Hackerrank", "color": "grey", "size": 12,
-            "dy": 0.6, "font": "Esteban", "reverse_text": true
-          },
-          "tooltip": "",
-          "redirect": "https://www.hackerrank.com/xavier_guihot?hr_r=1",
           "mouseover_images": [],
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
