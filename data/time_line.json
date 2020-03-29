@@ -806,7 +806,7 @@
       "center_x": 595.2,
       "center_y": 1197.5,
       "draw_white_circle": true,
-      "label": "2019",
+      "label": "2019-2020",
       "arcs": [
         {
           "inner_radius": 111, "start_angle": 60, "end_angle": 250,
@@ -820,7 +820,7 @@
         {
           "inner_radius": 132, "start_angle": 100, "end_angle": 200,
           "text": {
-            "label": "DICE", "reverse_text": false, "color": "grey", "size": 11,
+            "label": "IMG ARENA", "reverse_text": false, "color": "grey", "size": 11,
             "startOffset": "1%"
           },
           "tooltip": "",

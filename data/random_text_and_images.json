@@ -17,7 +17,7 @@
       "font": "Ubuntu", "weight": "default", "x": -525, "y": 950
     },
     {
-      "text": "Last updated: 2019-05-13", "size": 13, "color": "#4e5056",
+      "text": "Last updated: 2020-03-29", "size": 13, "color": "#4e5056",
       "font": "Ubuntu", "weight": "default", "x": 400, "y": 1450,
       "opacity": 0.6
     }
@@ -52,10 +52,6 @@
       "path": "img/freelancer.ico",
       "x": 11, "y": 166, "width": 16, "height": 16,
       "link": "https://freelancer.com/u/XavierGht.html"
-    },
-    {
-      "path": "img/profile.png",
-      "x": -525, "y": 780, "width": 120, "height": 121
     },
     {
       "path": "img/protonmail.png",
@@ -110,8 +106,8 @@
       "x": -131.8, "y": 1259.8, "width": 30, "height": 30
     },
     {
-      "path": "img/dice_logo.png",
-      "x": -129, "y": 1206.3, "width": 27, "height": 27,
+      "path": "img/imgarena_logo.png",
+      "x": -155, "y": 1185, "width": 80, "height": 80,
       "opacity": 0.6
     },
     {

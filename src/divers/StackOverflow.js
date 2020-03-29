@@ -11,7 +11,7 @@ function StackOverflowFlair(svg, x, y) {
 
     flairContainer.append("svg:image")
       .attr("id", "stack-overflow-flair")
-      .attr("xlink:href", "img/profile_so.png")
+      .attr("xlink:href", "img/profile.png")
       .attr("width", 24)
       .attr("height", 24);
 

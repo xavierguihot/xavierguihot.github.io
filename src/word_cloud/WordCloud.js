@@ -22,7 +22,7 @@ function WordCloud(svg, dataPath, x, y) {
     });
 
     let layout = d3.layout.cloud()
-      .size([600, 750])
+      .size([600, 700])
       .words(wordCloud)
       .padding(2) // I prefer smaller spaces between words
       .rotate( function(d) {
