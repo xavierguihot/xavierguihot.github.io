@@ -264,7 +264,7 @@ function drawArcs(svg, jsonTimeLine) {
     d.gradient_colors.forEach( gradientTransition => {
 
       let fillColor = gradientTransition.dissipation ? "none" : gradientTransition.color;
-      let fillOpacity = gradientTransition.dissipation ? 0: 1;
+      let fillOpacity = gradientTransition.dissipation ? 0 : 1;
 
       newGrad.append("svg:stop")
         .attr("offset", gradientTransition.offset + "%")

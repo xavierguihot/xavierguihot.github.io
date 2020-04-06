@@ -132,7 +132,7 @@
         {
           "length": 227, "angle": 95,
           "text": { "label": "Summer Internship", "color": "grey", "size": 12, "dy": 0.6, "font": "Esteban" },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">EDF Fessenheim nuclear power station (Fessenheim, FRANCE)</div>Scheduling of fire hopper openings and closings<br>1-month internship",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">EDF Fessenheim nuclear power station (Fessenheim, FRANCE)</div>Scheduling of fire hopper openings and closings - 1 month internship",
           "mouseover_images": [
             {
               "path": "img/edf.png",
@@ -153,7 +153,7 @@
         {
           "length": 230, "angle": 50,
           "text": { "label": "Competitive exams", "color": "grey", "size": 12, "dy": 0.6, "font": "Esteban" },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Entrance exams for engineering schools (CCP DEUG)</div><br>Admission to ISAE ENSICA (now called ISAE SUPAERO)<br><br>Physics: ranked 2 out of 291<br>Maths: ranked 5 out of 307",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Entrance exams to engineering schools (CCP DEUG)</div><br>Admission to ISAE ENSICA (now called ISAE SUPAERO)<br><br>Physics: ranked 2 out of 291<br>Maths: ranked 5 out of 307",
           "ray": { "width": 1, "color": "lightsteelblue" }
         }
       ],
@@ -230,7 +230,7 @@
             "label": "Poker app.", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">WinABarrierePoker</div>Online multiplayer poker desktop app.<br><br>Classic client/server architecture for multi-player games<br>Personnal project representing 800h of work<br>Mostly developped in Java (UI in Java Swing)<br><br>Repository: https://sourceforge.net/projects/winabarrierepoker",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">WinABarrierePoker</div>Online multiplayer poker desktop app.<br><br>Classic multi-player game client/server architecture<br>800 hour Java personal project<br><br>Repository: https://sourceforge.net/projects/winabarrierepoker",
           "redirect": "https://sourceforge.net/projects/winabarrierepoker/",
           "mouseover_images": [
             {
@@ -254,7 +254,7 @@
             "label": "Summer Internship", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Karlstad University (Sweden)</div>TCP simulations with NS2 (network simulator)<br>2-month internship<br><br>Simulation of cellular networks large-scale experimental measurements<br>using different technologies (3G, 4G, TCP variants, ...)<br><br>Supervised by Johan GARCIA, associate Professor in Computer Science",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Karlstad University (Sweden)</div>TCP simulations with NS2 (network simulator)<br>2-month internship<br><br>Simulation of cellular networks large-scale experimental measurements<br>using different technologies (3G, 4G, TCP variants, ...)<br><br>Supervised by Johan GARCIA",
           "redirect": "https://www.kau.se/en",
           "mouseover_images": [
             {
@@ -278,7 +278,7 @@
             "label": "CanSat competition", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">CNES CANSAT Competition</div>A CanSat is an autonomous spacecraft the size of a soda can<br><br>In charge of the \"Come Back\" mission:<br>Make the CanSat reach by itself a previously defined target on the ground<br><br>Treasurer of N6K'n'Sat association<br><br>Ensica took the 1st place of the contest",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">CNES CANSAT Competition</div>A CanSat is an autonomous spacecraft the size of a soda can<br><br>Treasurer and in charge of the \"Come Back\" mission<br><br>Ensica won first place in the annual contest",
           "redirect": "https://en.wikipedia.org/wiki/CanSat",
           "mouseover_images": [
             {
@@ -306,7 +306,7 @@
             "label": "Stock market app.", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Stock Market App.</div>Decision support tool for trading (personal project)<br><br>Near real-time analysis of hundreds of stocks<br>Mainly based on the Google Finance API<br><br>Parsing and news extraction from main websites<br>Bollinger bands, moving averages, ...<br>Monitoring/wanrings based on thresholds",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Stock Market App.</div>Decision support tool for trading (personal project)<br><br>Analysis of hundreds of stocks, mainly based on the Google Finance API<br><br>Bollinger bands, moving averages, ...<br>Monitoring/warnings based on thresholds",
           "mouseover_images": [
             {
               "path": "img/stock_curve.png",
@@ -329,7 +329,7 @@
             "label": "Vision Learning", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Image Classification</div>School project in collaboration with Spikenet Technology<br><br>Reviewing the state of the art in matter of automatic image classification<br>Playing with different computer vision algorithms<br>Shape detection, facial detection, SVM classification, ...",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Image Classification</div>School project in collaboration with Spikenet Technology<br><br>Reviewing the state of the art in matter of automatic image classification.<br>Playing with different computer vision algorithms.<br>Shape detection, face detection, SVM classification, ...",
           "mouseover_images": [
             {
               "path": "img/spikenet.png",
@@ -430,13 +430,9 @@
           "text": {
             "label": "AIRBUS - Internship", "reverse_text": true, "color": "grey", "size": 12
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AIRBUS - Simulation department (Toulouse - FRANCE)</div>Final-year internship (6 months)<br>Development of a workflow editor tool<br><br>Written in Java, using the powerfull Eclipse RCP framework for the UI,<br>Eclipse EMF for the data model<br>and Eclipse GMF for display/editing of the workflow<br><br>Referral: Stephane DITTLO",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AIRBUS - Simulation department (Toulouse - FRANCE)</div>Final-year internship - 6 months<br><br>Workflow editor written in Java and based on the Eclipse RCP stack<br><br>Referral: Stephane DITTLO",
           "redirect": "http://www.airbus.com",
           "mouseover_images": [
-            {
-              "path": "img/airbus_logo.png",
-              "x": 265, "y": 550, "width": 190, "height": 187
-            },
             {
               "path": "img/airbus.png",
               "x": 225, "y": 800, "width": 389, "height": 92
@@ -467,7 +463,7 @@
             "label": "Poker AI", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Poker AI</div>CBR: Case Based Reasoning (reinforcement learning algorithm)<br><br>1 - At AI's turn to play, game data is gathered <span style=\"font-size:11px\">(game step, hand strength, number of players...)</span><br>this vector of parameters forms a \"sample\" which is stored in a database.<br><br>2 - The AI then looks into the history database for the N most similar samples to<br>the current one (euclidiean distance).<br><br>3 - If the AI found enough similar samples, it will average the resulting gain per action<br><span style=\"font-size:11px\">(check, call, and raise)</span> of these similar samples and play the most profitable action.<br><br>4 - During learning initialization, when the database doesn't contain enough similar samples,<br>the AI randomly chooses which action to play.<br><br>Plugged to Pokerstars through screen scraping<br>Neutral gains against fictive money players<br>Requires several thousands hands to start being competitive",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Poker AI</div>CBR: Case Based Reasoning (reinforcement learning algorithm)<br><br>1 - When comes AI's turn to play, the current game state is<br>gathered and persisted (hand strength, number of players...). This forms a <br>vector of parameters whose values represent a \"sample\".<br><br>2 - The AI then looks into its history for the subset of samples most<br>similar to the current game state (euclidean distance).<br><br>3 - If enough similar samples are found, their resulting gains are grouped and<br>averaged per type of action (check, call, and raise) and<br>the most profitable action is chosen to be played.<br><br>4 - During the learning initialization phase, the history of samples being too small,<br>the AI randomly chooses which action to play.<br><br>Plugged in Pokerstars through screen scraping resulting<br>in neutral gains against fictive money players.",
           "mouseover_images": [
             {
               "path": "img/poker_sqrt.png",
@@ -509,7 +505,7 @@
             "label": "Travel Intelligence webapp", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Business Intelligence WebApps</div><br>Vizualisation/analysis tools for bookings and searches<br>Full stack dev.<br><br>Scala Spark data processing<br>Django web service<br>Emberjs UI / d3<br>MongoDB for real time queries<br><br>Documents volume per query: ~100M",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Business Intelligence WebApps</div><br>Web apps providing insights on flight bookings and searches<br><br>Scala Spark / Django / EmberJs / D3.js / MongoDB<br><br>Documents volume per query: ~100M",
           "mouseover_images": [
             {
               "path": "img/travel_intelligence.png",
@@ -548,7 +544,7 @@
             "label": "Joined freelancer.com", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Freelance Side Projects</div>https://freelancer.com/u/xavierght.html<br><br>Mostly English to French translations<br><br>Translation of web hosting websites, gaming apps,<br>medical publications, for amazon sellers, ...<br><br>French version of BongaCams.com<br>(83rd most visited web site)",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Freelance Side Projects</div>https://freelancer.com/u/xavierght.html<br><br>Mostly English to French translations<br><br>For instance, the french version of BongaCams.com<br>(83rd most visited web site)",
           "redirect": "https://www.freelancer.com/u/XavierGht",
           "mouseover_images": [
             {
@@ -592,7 +588,7 @@
             "label": "Hyperparameter Optimization", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Hyperparameter tuning</div><br>Iterative bayesian search for the maximum of a black box<br>objective function (as opposed to grid or random search).<br>Based on the hyperopt library<br><br>Used to find the optimal set of weights<br>which maximizes a linear combination.<br><br>For instance optimizing a function which<br>smartly orders flight recommendations<br>based on past booked searches.",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Hyper-parameter tuning</div><br>Iterative bayesian search for the maximum of a black box objective function (as opposed to a grid or random search).<br><br>Based on the hyperopt library<br><br>For instance, to find the optimal set of weights to give a set of search parameters to smartly orders flight recommendations based on past booked searches.",
           "redirect": "https://github.com/hyperopt/hyperopt",
           "mouseover_images": [
             {
@@ -616,7 +612,7 @@
             "label": "Mastering Scala Spark", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Scala Spark Expertise</div><br>Data preparations, ETLs, monitoring,<br>decoration, popularities, aggregations, parquet, <br>mllib, kmeans, prediction,<br>production, fuzzy matching<br><br>Projects usually related to improving conversion<br>(look to book ratio) for online travel agencies<br><br>Hadoop cluster: 30TB RAM / 6000 containers<br>Heaviest jobs: 1billion+ records",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Scala Spark Expertise</div><br>Data prep., ETLs, monitoring,<br>decoration, popularities, aggregations,<br>mllib, kmeans, prediction, fuzzy matching<br><br>Projects usually related to improving conversion<br>(look to book ratio) for online travel agencies<br><br>Hadoop cluster: 30TB RAM / 6000 containers<br>Heaviest jobs: 1billion+ records",
           "mouseover_images": [
             {
               "path": "img/scala_spark_2.png",
@@ -672,17 +668,9 @@
           "text": {
             "label": "AMADEUS", "reverse_text": false, "color": "grey", "size": 11
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, FRANCE)</div>Data Engineer<br><br>Global Distribution System - Travel B2B IT provider<br>Search, shopping, pricing, booking, ...<br><br>My area of expertise lies in analytics for<br>flight recommendation search engines<br>50% ETLs<br>20% Data Vizualisation<br>20% Data Science<br>10% Monitoring<br><br>Referral: Nicolas MAILLOT",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, FRANCE)</div>Data Engineer - 3 years 7 months<br><br>Global Distribution System - Travel B2B IT provider.<br>Search, shopping, pricing, booking, ...<br><br>Analytics for flight recommendation search engines.<br>50% spark - 25% dataviz - 25% data science<br><br>Referral: Nicolas MAILLOT",
           "redirect": "http://www.amadeus.com",
           "mouseover_images": [
-            {
-              "path": "img/amadeus.png",
-              "x": 280, "y": 510, "width": 200, "height": 200
-            },
-            {
-              "path": "img/amadeus_figures.png",
-              "x": 200, "y": 780, "width": 500, "height": 219
-            },
             {
               "path": "img/scala_spark.png",
               "x": 950, "y": 750, "width": 200, "height": 112
@@ -770,7 +758,7 @@
             "label": "ADTHENA", "reverse_text": true, "color": "grey", "size": 11,
             "startOffset": "85%"
           },
-          "tooltip": "",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ADTHENA (London, UK)</div>Data Engineer - 10 months<br><br>B2B start-up providing per-keyword google paid-search insights<br><br>Collecting and leveraging the massive amount of data served via a web UI<br><br>Scala Spark pipelines on AWS clusters<br>Java endpoints on top of SQL Amazon Redshift instances<br><br>Referral: Ivan NIKOLOV",
           "redirect": "https://www.adthena.com",
           "mouseover_images": [],
           "gradient_colors": [
@@ -789,30 +777,30 @@
       "label": "2019-2020",
       "arcs": [
         {
-          "inner_radius": 111, "start_angle": 60, "end_angle": 250,
+          "inner_radius": 111, "start_angle": 60, "end_angle": 275,
           "gradient_colors": [
             { "color": "#F1E9ED", "offset": 0, "dissipation": true },
             { "color": "#751aff", "offset": 80 }
           ],
-          "gradient_rotation": 345,
+          "gradient_rotation": 349,
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 132, "start_angle": 100, "end_angle": 200,
+          "inner_radius": 132, "start_angle": 100, "end_angle": 250,
           "text": {
             "label": "IMG ARENA", "reverse_text": false, "color": "grey", "size": 11,
             "startOffset": "1%"
           },
-          "tooltip": "",
-          "redirect": "http://www.diceplatform.com",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">IMG ARENA (London, UK)</div>Backend Developer - 14+ months<br><br>Live sport betting feeds streaming.<br>Low-latency and highly reliable sport data collection and broadcasting.<br><br>100% Scala<br>Akka Streams / AWS / Postgres / Ansible<br><br>Referral: Mike HICKMAN",
+          "redirect": "https://www.imgarena.com/",
           "mouseover_images": [],
           "gradient_colors": [
-            { "color": "#2c0066", "offset": 0 },
-            { "color": "#2298de", "offset": 20 },
-            { "color": "#00bb6a", "offset": 45 },
-            { "color": "#F1E9ED", "offset": 75, "dissipation": true }
+            { "color": "#F1E9ED", "offset": 0, "dissipation": true },
+            { "color": "#00bb6a", "offset": 40 },
+            { "color": "#2298de", "offset": 65 },
+            { "color": "#2c0066", "offset": 90 }
           ],
-          "gradient_rotation": 100,
+          "gradient_rotation": -17,
           "shadow_dissipation": true
         }
       ],
@@ -821,6 +809,14 @@
           "length": 204, "angle": 10,
           "text": {
             "label": "February", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 187, "angle": 80,
+          "text": {
+            "label": "2020", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
           },
           "ray": { "width": 1, "color": "grey" }
