@@ -25,12 +25,12 @@ function StackOverflowFlair(svg, x, y) {
     addText(flairContainer, "●", "#8c9298", 105, 16, 15);
     addText(flairContainer, json.items[0].badge_counts.silver, "#8c9298", 115, 16, 12);
 
-    addText(flairContainer, "●", "#c38b5f", 135, 16, 15);
-    addText(flairContainer, json.items[0].badge_counts.bronze, "#c38b5f", 145, 16, 12);
+    addText(flairContainer, "●", "#c38b5f", 140, 16, 15);
+    addText(flairContainer, json.items[0].badge_counts.bronze, "#c38b5f", 150, 16, 12);
 
     flairContainer.append("svg:image")
       .attr("xlink:href", "img/so-icon.png")
-      .attr("x", 163)
+      .attr("x", 168)
       .attr("y", -3)
       .attr("width", 28)
       .attr("height", 28);
@@ -38,7 +38,7 @@ function StackOverflowFlair(svg, x, y) {
     flairContainer.append("rect")
       .attr("x", 0)
       .attr("y", 0)
-      .attr("width", 190)
+      .attr("width", 195)
       .attr("height", 24)
       .style("fill", "none")
       .attr("pointer-events", "all")
