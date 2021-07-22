@@ -20,9 +20,7 @@
 <!-- The library which draws the word cloud -->
 <script src="https://cdn.rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
 <!-- Google fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Esteban">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo|Esteban|Ubuntu">
 <!-- Jquery, dependency for tipsy: -->
 <script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <!-- Tipsy (tooltips) the javascript code is a modified version of the original tipsy, tuned for d3: -->
@@ -49,7 +47,7 @@ let svg = d3.select("svg")
   // The following attributes allow me to size/scale back the graph based on
   // the user's browser own window size:
   .attr("preserveAspectRatio", "xMinYMin meet")
-  .attr("viewBox", "0 0 1250 1475")
+  .attr("viewBox", "0 0 1250 1600")
   .classed("svg-content", true)
   .append("g");
 
@@ -66,7 +64,7 @@ new TimeLine(timeLineSvg, "data/time_line.json", -85, 50);
 new WordCloud(cloudSvg, "data/word_cloud_competences.json", 960, 265);
 new StackOverflowFlair(soSvg, 870, 1135);
 new GithubFlair("xavierguihot", githubSvg, 960, 1000);
-new CodewarsFlair("xavierguihot", codewarsSvg, 366, 1039);
+new CodewarsFlair("xavierguihot", codewarsSvg, 410, 965);
 
 </script>
 

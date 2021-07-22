@@ -121,7 +121,7 @@
         {
           "length": 214, "angle": 140,
           "text": { "label": "First line of code", "color": "grey", "size": 12, "dy": 0.6, "font": "Esteban" },
-          "tooltip": "Tetris game developed in C (homework assignement)<br>Finally something worth studying!",
+          "tooltip": "Tetris game developed in C (homework assignement)",
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
@@ -132,7 +132,7 @@
         {
           "length": 227, "angle": 95,
           "text": { "label": "Summer Internship", "color": "grey", "size": 12, "dy": 0.6, "font": "Esteban" },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">EDF Fessenheim nuclear power station (Fessenheim, FRANCE)</div>Scheduling of fire hopper openings and closings - 1 month internship",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">EDF Fessenheim nuclear power station (Fessenheim, France)</div>Scheduling of fire hopper openings and closings - 1 month internship",
           "mouseover_images": [
             {
               "path": "img/edf.png",
@@ -175,7 +175,7 @@
             "label": "Prepa.", "reverse_text": true, "color": "grey", "size": 12,
             "startOffset": "79.5%"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Lycée Blaise Pascal (Orsay, FRANCE)</div>Preparatory classes for the grandes écoles",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Lycée Blaise Pascal (Orsay, France)</div>Preparatory classes for the grandes écoles",
           "gradient_colors": [
             { "color": "#2c0066", "offset": 0 },
             { "color": "#2298de", "offset": 50 },
@@ -187,7 +187,7 @@
           "text": {
             "label": "University", "reverse_text": true, "color": "grey", "size": 12
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">University Paris South 11 (Orsay, FRANCE)</div>Two-year university degree in mathematics and physics (DEUG)<br><br>http://www.u-psud.fr/en",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">University Paris South 11 (Orsay, France)</div>Two-year university degree in mathematics and physics (DEUG)<br><br>http://www.u-psud.fr/en",
           "redirect": "http://www.u-psud.fr/en/index.html",
           "mouseover_images": [
             {
@@ -254,7 +254,7 @@
             "label": "Summer Internship", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban", "reverse_text": true
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Karlstad University (Sweden)</div>TCP simulations with NS2 (network simulator)<br>2-month internship<br><br>Simulation of cellular networks large-scale experimental measurements<br>using different technologies (3G, 4G, TCP variants, ...)<br><br>Supervised by Johan GARCIA",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Karlstad University (Karlstad, Sweden)</div>TCP simulations with NS2 (network simulator)<br>2-month internship<br><br>Simulation of cellular networks large-scale experimental measurements<br>using different technologies (3G, 4G, TCP variants, ...)<br><br>Supervised by Johan GARCIA",
           "redirect": "https://www.kau.se/en",
           "mouseover_images": [
             {
@@ -364,7 +364,7 @@
           "text": {
             "label": "ENSICA", "reverse_text": false, "color": "grey"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ISAE-ENSICA (Toulouse, FRANCE)</div>Institute of Space and Aeronautical Engineering<br><br>Avionics, mechanical engineering, mathematics,<br>fluid mechanics, computer science...<br><br>French equivalent of a Master's Degree in Engineering<br>Renamed ISAE-SUPAERO in 2014",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ISAE-ENSICA (Toulouse, France)</div>Institute of Space and Aeronautical Engineering<br><br>Avionics, mechanical engineering, mathematics,<br>fluid mechanics, computer science...<br><br>French equivalent of a Master's Degree in Engineering<br>Renamed ISAE-SUPAERO in 2014",
           "redirect": "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27ing%C3%A9nieurs_de_constructions_a%C3%A9ronautiques",
           "gradient_colors": [
             { "color": "#2c0066", "offset": 0 },
@@ -395,7 +395,7 @@
           "text": {
             "label": "SUPAERO", "reverse_text": false, "color": "grey"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ISAE-SUPAERO (Toulouse, FRANCE)</div>Institute of Space and Aeronautical Engineering<br><br>Major in critical computer systems:<br><span style=\"font-size:12px\">Software engineering, real time programming languages, process scheduling,<br>networks, os, performance evaluation, software validation</span><br><br>Major in intelligent systems<br><span style=\"font-size:12px\">Decision support tools and methods, optimization, statistics, basics of machine learning</span><br><br>French equivalent of a Master's Degree in Engineering",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ISAE-SUPAERO (Toulouse, France)</div>Institute of Space and Aeronautical Engineering<br><br>Major in critical computer systems:<br><span style=\"font-size:12px\">Software engineering, real time programming languages, process scheduling,<br>networks, os, performance evaluation, software validation</span><br><br>Major in intelligent systems<br><span style=\"font-size:12px\">Decision support tools and methods, optimization, statistics, basics of machine learning</span><br><br>French equivalent of a Master's Degree in Engineering",
           "redirect": "https://www.isae-supaero.fr/en",
           "mouseover_images": [
             {
@@ -430,7 +430,7 @@
           "text": {
             "label": "AIRBUS - Internship", "reverse_text": true, "color": "grey", "size": 12
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AIRBUS - Simulation department (Toulouse - FRANCE)</div>Final-year internship - 6 months<br><br>Workflow editor written in Java and based on the Eclipse RCP stack<br><br>Referral: Stephane DITTLO",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AIRBUS - Simulation department (Toulouse - France)</div>Final-year internship - 6 months<br><br>Workflow editor written in Java and based on the Eclipse RCP stack<br><br>Referral: Stephane DITTLO",
           "redirect": "http://www.airbus.com",
           "mouseover_images": [
             {
@@ -668,7 +668,7 @@
           "text": {
             "label": "AMADEUS", "reverse_text": false, "color": "grey", "size": 11
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, FRANCE)</div>Data Engineer - 3 years 7 months<br><br>Global Distribution System - Travel B2B IT provider.<br>Search, shopping, pricing, booking, ...<br><br>Analytics for flight recommendation search engines.<br>50% spark - 25% dataviz - 25% data science<br><br>Referral: Nicolas MAILLOT",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, France)</div>Data Engineer - 3 years 7 months<br><br>Global Distribution System - Travel B2B IT provider.<br>Search, shopping, pricing, booking, ...<br><br>Analytics for flight recommendation search engines.<br>50% spark - 25% dataviz - 25% data science<br><br>Referral: Nicolas MAILLOT",
           "redirect": "http://www.amadeus.com",
           "mouseover_images": [
             {
@@ -719,12 +719,12 @@
       "label": "2018",
       "rays": [
         {
-          "length": 178, "angle": 250,
+          "length": 178, "angle": 240,
           "text": { "label": "April", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
         },
         {
-          "length": 240, "angle": 198,
+          "length": 240, "angle": 220,
           "text": {
             "label": "Joined Codewars", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban"
@@ -735,7 +735,7 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
-          "length": 178, "angle": 175,
+          "length": 178, "angle": 163,
           "text": {
             "label": "2019", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6
@@ -745,7 +745,7 @@
       ],
       "arcs": [
         {
-          "inner_radius": 102, "start_angle": 366, "end_angle": 240,
+          "inner_radius": 102, "start_angle": 366, "end_angle": 222,
           "gradient_colors": [
             { "color": "#751aff", "offset": 0 },
             { "color": "#751aff", "offset": 100 }
@@ -753,7 +753,7 @@
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 123, "start_angle": 340, "end_angle": 255,
+          "inner_radius": 123, "start_angle": 330, "end_angle": 250,
           "text": {
             "label": "ADTHENA", "reverse_text": true, "color": "grey", "size": 11,
             "startOffset": "85%"
@@ -771,31 +771,30 @@
       ]
     },
     {
-      "center_x": 595.2,
-      "center_y": 1197.5,
+      "center_x": 635,
+      "center_y": 1249,
       "draw_white_circle": true,
       "label": "2019-2020",
       "arcs": [
         {
-          "inner_radius": 111, "start_angle": 60, "end_angle": 275,
+          "inner_radius": 111, "start_angle": 45, "end_angle": 228,
           "gradient_colors": [
-            { "color": "#F1E9ED", "offset": 0, "dissipation": true },
+            { "color": "#751aff", "offset": 0 },
             { "color": "#751aff", "offset": 80 }
           ],
           "gradient_rotation": 349,
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 132, "start_angle": 100, "end_angle": 250,
+          "inner_radius": 132, "start_angle": 70, "end_angle": 200,
           "text": {
             "label": "IMG ARENA", "reverse_text": false, "color": "grey", "size": 11,
             "startOffset": "1%"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">IMG ARENA (London, UK)</div>Backend Developer - 14+ months<br><br>Live sport betting feeds streaming.<br>Low-latency and highly reliable sport data collection and broadcasting.<br><br>100% Scala<br>Akka Streams / AWS / Postgres / Ansible<br><br>Referral: Mike HICKMAN",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">IMG ARENA (London, UK)</div>Backend Developer - 1 year 10 months<br><br>Live sport betting feeds streaming.<br>Low-latency and highly reliable sport data collection and broadcasting.<br><br>100% Scala<br>Akka Streams / AWS / Postgres<br><br>Referral: Mike HICKMAN",
           "redirect": "https://www.imgarena.com/",
           "mouseover_images": [],
           "gradient_colors": [
-            { "color": "#F1E9ED", "offset": 0, "dissipation": true },
             { "color": "#00bb6a", "offset": 40 },
             { "color": "#2298de", "offset": 65 },
             { "color": "#2c0066", "offset": 90 }
@@ -806,7 +805,7 @@
       ],
       "rays": [
         {
-          "length": 204, "angle": 10,
+          "length": 204, "angle": -20,
           "text": {
             "label": "February", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
@@ -814,9 +813,63 @@
           "ray": { "width": 1, "color": "grey" }
         },
         {
-          "length": 187, "angle": 80,
+          "length": 187, "angle": 65,
           "text": {
             "label": "2020", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        }
+      ]
+    },
+    {
+      "center_x": 471,
+      "center_y": 1410,
+      "draw_white_circle": true,
+      "label": "2020-2021",
+      "arcs": [
+        {
+          "inner_radius": 98, "start_angle": 408, "end_angle": 190,
+          "gradient_colors": [
+            { "color": "#751aff", "offset": 0 },
+            { "color": "#751aff", "offset": 35 },
+            { "color": "#F1E9ED", "offset": 70, "dissipation": true }
+          ],
+          "gradient_rotation": 105,
+          "shadow_dissipation": true
+        },
+        {
+          "inner_radius": 119, "start_angle": 370, "end_angle": 215,
+          "text": {
+            "label": "MINNA Technologies", "reverse_text": true, "color": "grey", "size": 11,
+            "startOffset": "84%"
+          },
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Minna Technologies (Gothenburg, Sweden)</div>Scala Data Engineer - 11 months<br><br>Minna provides bank customers with subscription management solutions<br>(subscription overview, easy cancellation, service provider switch, ...)<br><br>I'm in charge of the subscription detection engine (the algorithm that <br>discovers subscriptions out of users' transactions). This mainly consists in:<br><br>• Upgrading and rethinking the algorithm (resulting in an increase of the detection<br>accuracy from 40% to 95%).<br>• Creating the tools necessary to build an annotated/labelled dataset, to measure<br>the accuracy, tune the algorithm, validate changes and visualise the data.<br><br>Scala / MongoDB / Akka / d3.js<br><br>Referral: Michael NEUWIRTH",
+          "redirect": "https://minnatechnologies.com/",
+          "mouseover_images": [],
+          "gradient_colors": [
+            { "color": "#2c0066", "offset": 0 },
+            { "color": "#2298de", "offset": 30 },
+            { "color": "#00bb6a", "offset": 40 },
+            { "color": "#F1E9ED", "offset": 65, "dissipation": true }
+          ],
+          "gradient_rotation": 105,
+          "shadow_dissipation": true
+        }
+      ],
+      "rays": [
+        {
+          "length": 187, "angle": -80,
+          "text": {
+            "label": "October", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 172, "angle": 240,
+          "text": {
+            "label": "2021", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
           },
           "ray": { "width": 1, "color": "grey" }

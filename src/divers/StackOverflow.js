@@ -30,7 +30,7 @@ function StackOverflowFlair(svg, x, y) {
 
     flairContainer.append("svg:image")
       .attr("xlink:href", "img/so-icon.png")
-      .attr("x", 168)
+      .attr("x", 173)
       .attr("y", -3)
       .attr("width", 28)
       .attr("height", 28);
@@ -38,7 +38,7 @@ function StackOverflowFlair(svg, x, y) {
     flairContainer.append("rect")
       .attr("x", 0)
       .attr("y", 0)
-      .attr("width", 195)
+      .attr("width", 200)
       .attr("height", 24)
       .style("fill", "none")
       .attr("pointer-events", "all")
