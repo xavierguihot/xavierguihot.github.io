@@ -88,7 +88,7 @@
         {
           "inner_radius": 77, "start_angle": 206, "end_angle": 292,
           "text": {
-            "label": "Child", "reverse_text": false, "color": "grey", "size": 12
+            "label": "Child", "reverse_text": false, "color": "silver", "size": 12
           },
           "gradient_colors": [
             { "color": "#00bb6a", "offset": 0 },
@@ -114,7 +114,7 @@
       "label": "2008-2011",
       "rays": [
         {
-          "length": 188, "angle": 190,
+          "length": 155, "angle": 190,
           "text": { "label": "2009", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
         },
@@ -125,7 +125,7 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
-          "length": 188, "angle": 127.5,
+          "length": 155, "angle": 127.5,
           "text": { "label": "2010", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
         },
@@ -146,7 +146,7 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
-          "length": 188, "angle": 65,
+          "length": 155, "angle": 65,
           "text": { "label": "2011", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
         },
@@ -172,7 +172,7 @@
         {
           "inner_radius": 77, "start_angle": 320, "end_angle": 255,
           "text": {
-            "label": "Prepa.", "reverse_text": true, "color": "grey", "size": 12,
+            "label": "Prepa.", "reverse_text": true, "color": "silver", "size": 12,
             "startOffset": "79.5%"
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Lycée Blaise Pascal (Orsay, France)</div>Preparatory classes for the grandes écoles",
@@ -185,7 +185,7 @@
         {
           "inner_radius": 77, "start_angle": 255, "end_angle": 105,
           "text": {
-            "label": "University", "reverse_text": true, "color": "grey", "size": 12
+            "label": "University", "reverse_text": true, "color": "silver", "size": 12
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">University Paris South 11 (Orsay, France)</div>Two-year university degree in mathematics and physics (DEUG)<br><br>http://www.u-psud.fr/en",
           "redirect": "http://www.u-psud.fr/en/index.html",
@@ -362,7 +362,7 @@
         {
           "inner_radius": 132, "start_angle": -40, "end_angle": 95,
           "text": {
-            "label": "ENSICA", "reverse_text": false, "color": "grey"
+            "label": "ENSICA", "reverse_text": false, "color": "silver"
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ISAE-ENSICA (Toulouse, France)</div>Institute of Space and Aeronautical Engineering<br><br>Avionics, mechanical engineering, mathematics,<br>fluid mechanics, computer science...<br><br>French equivalent of a Master's Degree in Engineering<br>Renamed ISAE-SUPAERO in 2014",
           "redirect": "https://fr.wikipedia.org/wiki/%C3%89cole_nationale_sup%C3%A9rieure_d%27ing%C3%A9nieurs_de_constructions_a%C3%A9ronautiques",
@@ -393,7 +393,7 @@
         {
           "inner_radius": 132, "start_angle": 95, "end_angle": 160,
           "text": {
-            "label": "SUPAERO", "reverse_text": false, "color": "grey"
+            "label": "SUPAERO", "reverse_text": false, "color": "silver"
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ISAE-SUPAERO (Toulouse, France)</div>Institute of Space and Aeronautical Engineering<br><br>Major in critical computer systems:<br><span style=\"font-size:12px\">Software engineering, real time programming languages, process scheduling,<br>networks, os, performance evaluation, software validation</span><br><br>Major in intelligent systems<br><span style=\"font-size:12px\">Decision support tools and methods, optimization, statistics, basics of machine learning</span><br><br>French equivalent of a Master's Degree in Engineering",
           "redirect": "https://www.isae-supaero.fr/en",
@@ -428,7 +428,7 @@
         {
           "inner_radius": 77, "start_angle": 300, "end_angle": 165,
           "text": {
-            "label": "AIRBUS - Internship", "reverse_text": true, "color": "grey", "size": 12
+            "label": "AIRBUS - Internship", "reverse_text": true, "color": "silver", "size": 12
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AIRBUS - Simulation department (Toulouse - France)</div>Final-year internship - 6 months<br><br>Workflow editor written in Java and based on the Eclipse RCP stack<br><br>Referral: Stephane DITTLO",
           "redirect": "http://www.airbus.com",
@@ -666,7 +666,7 @@
         {
           "inner_radius": 132, "start_angle": 335, "end_angle": 528,
           "text": {
-            "label": "AMADEUS", "reverse_text": false, "color": "grey", "size": 11
+            "label": "AMADEUS", "reverse_text": false, "color": "silver", "size": 11
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, France)</div>Data Engineer - 3 years 7 months<br><br>Global Distribution System - Travel B2B IT provider.<br>Search, shopping, pricing, booking, ...<br><br>Analytics for flight recommendation search engines.<br>50% spark - 25% dataviz - 25% data science<br><br>Referral: Nicolas MAILLOT",
           "redirect": "http://www.amadeus.com",
@@ -714,17 +714,17 @@
     },
     {
       "center_x": 798,
-      "center_y": 1081.2,
+      "center_y": 1077,
       "draw_white_circle": true,
       "label": "2018",
       "rays": [
         {
-          "length": 178, "angle": 240,
+          "length": 152, "angle": 240,
           "text": { "label": "April", "color": "#00b8e6", "font": "Esteban", "size": 11, "dy": 0.6 },
           "ray": { "width": 1, "color": "grey" }
         },
         {
-          "length": 240, "angle": 220,
+          "length": 214, "angle": 220,
           "text": {
             "label": "Joined Codewars", "color": "grey", "size": 12,
             "dy": 0.6, "font": "Esteban"
@@ -735,7 +735,7 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
-          "length": 178, "angle": 163,
+          "length": 153, "angle": 153,
           "text": {
             "label": "2019", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6
@@ -745,7 +745,7 @@
       ],
       "arcs": [
         {
-          "inner_radius": 102, "start_angle": 366, "end_angle": 222,
+          "inner_radius": 98, "start_angle": 366, "end_angle": 205,
           "gradient_colors": [
             { "color": "#751aff", "offset": 0 },
             { "color": "#751aff", "offset": 100 }
@@ -753,31 +753,31 @@
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 123, "start_angle": 330, "end_angle": 250,
+          "inner_radius": 77, "start_angle": 330, "end_angle": 220,
           "text": {
-            "label": "ADTHENA", "reverse_text": true, "color": "grey", "size": 11,
-            "startOffset": "85%"
+            "label": "ADTHENA", "reverse_text": true, "color": "silver", "size": 11,
+            "startOffset": "82%"
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">ADTHENA (London, UK)</div>Data Engineer - 10 months<br><br>B2B start-up providing per-keyword google paid-search insights<br><br>Collecting and leveraging the massive amount of data served via a web UI<br><br>Scala Spark pipelines on AWS clusters<br>Java endpoints on top of SQL Amazon Redshift instances<br><br>Referral: Ivan NIKOLOV",
           "redirect": "https://www.adthena.com",
           "mouseover_images": [],
           "gradient_colors": [
             { "color": "#2c0066", "offset": 0 },
-            { "color": "#2298de", "offset": 25 },
-            { "color": "#00bb6a", "offset": 55 }
+            { "color": "#2298de", "offset": 45 },
+            { "color": "#00bb6a", "offset": 75 }
           ],
           "shadow_dissipation": true
         }
       ]
     },
     {
-      "center_x": 635,
-      "center_y": 1249,
+      "center_x": 700.5,
+      "center_y": 1285.5,
       "draw_white_circle": true,
       "label": "2019-2020",
       "arcs": [
         {
-          "inner_radius": 111, "start_angle": 45, "end_angle": 228,
+          "inner_radius": 111, "start_angle": 25, "end_angle": 194,
           "gradient_colors": [
             { "color": "#751aff", "offset": 0 },
             { "color": "#751aff", "offset": 80 }
@@ -786,26 +786,26 @@
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 132, "start_angle": 70, "end_angle": 200,
+          "inner_radius": 132, "start_angle": 45, "end_angle": 180,
           "text": {
-            "label": "IMG ARENA", "reverse_text": false, "color": "grey", "size": 11,
+            "label": "IMG ARENA", "reverse_text": false, "color": "silver", "size": 11,
             "startOffset": "1%"
           },
           "tooltip": "<div style=\"font-size:17px;font-weight:medium\">IMG ARENA (London, UK)</div>Backend Developer - 1 year 10 months<br><br>Live sport betting feeds streaming.<br>Low-latency and highly reliable sport data collection and broadcasting.<br><br>100% Scala<br>Akka Streams / AWS / Postgres<br><br>Referral: Mike HICKMAN",
           "redirect": "https://www.imgarena.com/",
           "mouseover_images": [],
           "gradient_colors": [
-            { "color": "#00bb6a", "offset": 40 },
-            { "color": "#2298de", "offset": 65 },
-            { "color": "#2c0066", "offset": 90 }
+            { "color": "#2c0066", "offset": 30 },
+            { "color": "#2298de", "offset": 80 },
+            { "color": "#00bb6a", "offset": 100 }
           ],
-          "gradient_rotation": -17,
+          "gradient_rotation": 80,
           "shadow_dissipation": true
         }
       ],
       "rays": [
         {
-          "length": 204, "angle": -20,
+          "length": 204, "angle": -40,
           "text": {
             "label": "February", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
@@ -813,7 +813,7 @@
           "ray": { "width": 1, "color": "grey" }
         },
         {
-          "length": 187, "angle": 65,
+          "length": 187, "angle": 25,
           "text": {
             "label": "2020", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
@@ -823,13 +823,133 @@
       ]
     },
     {
-      "center_x": 471,
-      "center_y": 1410,
+      "center_x": 641.5,
+      "center_y": 1508,
       "draw_white_circle": true,
       "label": "2020-2021",
       "arcs": [
         {
-          "inner_radius": 98, "start_angle": 408, "end_angle": 190,
+          "inner_radius": 98, "start_angle": 376, "end_angle": 170,
+          "gradient_colors": [
+            { "color": "#751aff", "offset": 0 },
+            { "color": "#751aff", "offset": 80 }
+          ],
+          "gradient_rotation": 105,
+          "shadow_dissipation": true
+        },
+        {
+          "inner_radius": 77, "start_angle": 335, "end_angle": 215,
+          "text": {
+            "label": "MINNA Technologies", "reverse_text": true, "color": "silver", "size": 11,
+            "startOffset": "70%"
+          },
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Minna Technologies (Gothenburg, Sweden)</div>Scala Data Engineer - 11 months<br><br>Minna provides bank customers with subscription management solutions<br>(subscription overview, easy cancellation, service provider switch, ...)<br><br>I'm in charge of the subscription detection engine (the algorithm that <br>discovers subscriptions out of users' transactions). This mainly consists in:<br><br>• Upgrading and rethinking the algorithm (resulting in an increase of the detection<br>accuracy from 40% to 95%).<br>• Creating the tools necessary to build an annotated/labelled dataset, to measure<br>the accuracy, tune the algorithm, validate changes and visualise the data.<br><br>Scala / MongoDB / Akka / d3.js<br><br>Referral: Michael NEUWIRTH",
+          "redirect": "https://minnatechnologies.com/",
+          "mouseover_images": [],
+          "gradient_colors": [
+            { "color": "#2c0066", "offset": 0 },
+            { "color": "#2298de", "offset": 60 },
+            { "color": "#00bb6a", "offset": 75 }
+          ],
+          "gradient_rotation": 105,
+          "shadow_dissipation": true
+        }
+      ],
+      "rays": [
+        {
+          "length": 165, "angle": -115,
+          "text": {
+            "label": "October", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": false
+          },
+          "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 152, "angle": -160,
+          "text": {
+            "label": "2021", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": false
+          },
+          "ray": { "width": 1, "color": "grey" }
+        }
+      ]
+    },
+    {
+      "center_x": 683.5,
+      "center_y": 1734.3,
+      "draw_white_circle": true,
+      "label": "2021-2024",
+      "arcs": [
+        {
+          "inner_radius": 111, "start_angle": -11, "end_angle": 210,
+          "gradient_colors": [
+            { "color": "#751aff", "offset": 0 },
+            { "color": "#751aff", "offset": 80 }
+          ],
+          "gradient_rotation": 349,
+          "shadow_dissipation": true
+        },
+        {
+          "inner_radius": 132, "start_angle": 15, "end_angle": 185,
+          "text": {
+            "label": "BLOOM", "reverse_text": false, "color": "silver", "size": 11,
+            "startOffset": "1%"
+          },
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">BLOOM Social Analytics (Paris, Fance)</div>Lead Data Engineer (Remote) - 2 years 6 months<br><br>Bloom collects social media content, processes it to discover insights<br>and provides visual dashboards for analysis of those insights.<br><br>I'm in charge of the engineering on the data processing side, which consists in:<br><br>• Tokenizing and classifying social media content<br>• Propagating classifications amongst social media referral chains<br>• Producing all sorts of metrics<br>• Creating graphs of terms and graphs of social media actors<br>• Detecting inauthentic behaviours<br>• Extracting locations from social media content<br>• Building data visualisations<br><br>Scala / Spark / Mongo / AWS S3/EMR / Airflow / d3.js<br><br>Referral: Benjamin VELUZAT",
+          "redirect": "https://bloomsocialanalytics.com/fr/",
+          "mouseover_images": [],
+          "gradient_colors": [
+            { "color": "#2c0066", "offset": 0 },
+            { "color": "#2298de", "offset": 40 },
+            { "color": "#00bb6a", "offset": 75 }
+          ],
+          "gradient_rotation": 105,
+          "shadow_dissipation": true
+        }
+      ],
+      "rays": [
+        {
+          "length": 197, "angle": -73,
+          "text": {
+            "label": "October", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 187, "angle": -55,
+          "text": {
+            "label": "2022", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 187, "angle": 10,
+          "text": {
+            "label": "2023", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 187, "angle": 70,
+          "text": {
+            "label": "2024", "color": "#00b8e6", "font": "Esteban",
+            "size": 11, "dy": 0.6, "reverse_text": true
+          },
+          "ray": { "width": 1, "color": "grey" }
+        }
+      ]
+    },
+    {
+      "center_x": 568.5,
+      "center_y": 1933.5,
+      "draw_white_circle": true,
+      "label": "2024",
+      "arcs": [
+        {
+          "inner_radius": 98, "start_angle": 390, "end_angle": 190,
           "gradient_colors": [
             { "color": "#751aff", "offset": 0 },
             { "color": "#751aff", "offset": 35 },
@@ -839,13 +959,12 @@
           "shadow_dissipation": true
         },
         {
-          "inner_radius": 119, "start_angle": 370, "end_angle": 215,
+          "inner_radius": 119, "start_angle": 360, "end_angle": 215,
           "text": {
-            "label": "MINNA Technologies", "reverse_text": true, "color": "grey", "size": 11,
-            "startOffset": "84%"
+            "label": "Gap Year", "reverse_text": true, "color": "silver", "size": 11,
+            "startOffset": "91%"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Minna Technologies (Gothenburg, Sweden)</div>Scala Data Engineer - 11 months<br><br>Minna provides bank customers with subscription management solutions<br>(subscription overview, easy cancellation, service provider switch, ...)<br><br>I'm in charge of the subscription detection engine (the algorithm that <br>discovers subscriptions out of users' transactions). This mainly consists in:<br><br>• Upgrading and rethinking the algorithm (resulting in an increase of the detection<br>accuracy from 40% to 95%).<br>• Creating the tools necessary to build an annotated/labelled dataset, to measure<br>the accuracy, tune the algorithm, validate changes and visualise the data.<br><br>Scala / MongoDB / Akka / d3.js<br><br>Referral: Michael NEUWIRTH",
-          "redirect": "https://minnatechnologies.com/",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Gap Year</div>9 months<br><br>Hiking 4500km in France, Scotland, Madeira, the Lofotens, Iceland, the Pyrenees, Jordan and Nepal.",
           "mouseover_images": [],
           "gradient_colors": [
             { "color": "#2c0066", "offset": 0 },
@@ -859,17 +978,9 @@
       ],
       "rays": [
         {
-          "length": 187, "angle": -80,
+          "length": 180, "angle": -90,
           "text": {
-            "label": "October", "color": "#00b8e6", "font": "Esteban",
-            "size": 11, "dy": 0.6, "reverse_text": true
-          },
-          "ray": { "width": 1, "color": "grey" }
-        },
-        {
-          "length": 172, "angle": 240,
-          "text": {
-            "label": "2021", "color": "#00b8e6", "font": "Esteban",
+            "label": "March", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
           },
           "ray": { "width": 1, "color": "grey" }
