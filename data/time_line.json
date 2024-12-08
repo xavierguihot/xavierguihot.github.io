@@ -633,6 +633,17 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
+          "length": 298, "angle": 45,
+          "text": {
+            "label": "Building xavierguihot.com", "color": "grey", "size": 12,
+            "dy": 0.6, "font": "Esteban", "reverse_text": true
+          },
+          "tooltip": "",
+          "redirect": "https://xavierguihot.com",
+          "mouseover_images": [],
+          "ray": { "width": 1, "color": "lightsteelblue" }
+        },
+        {
           "length": 188, "angle": 55,
           "text": {
             "label": "2018", "color": "#00b8e6", "font": "Esteban",
@@ -871,6 +882,15 @@
             "size": 11, "dy": 0.6, "reverse_text": false
           },
           "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 248, "angle": -220,
+          "text": {
+            "label": "Obsessing about hiking", "color": "grey", "size": 12,
+            "dy": 0.6, "font": "Esteban", "reverse_text": false
+          },
+          "tooltip": "",
+          "ray": { "width": 1, "color": "lightsteelblue" }
         }
       ]
     },
@@ -925,12 +945,34 @@
           "ray": { "width": 1, "color": "grey" }
         },
         {
+          "length": 213, "angle": -45,
+          "text": {
+            "label": "First gists", "color": "grey", "size": 12,
+            "dy": 0.6, "font": "Esteban", "reverse_text": true
+          },
+          "tooltip": "",
+          "redirect": "https://gist.github.com/xavierguihot",
+          "mouseover_images": [],
+          "ray": { "width": 1, "color": "lightsteelblue" }
+        },
+        {
           "length": 187, "angle": 10,
           "text": {
             "label": "2023", "color": "#00b8e6", "font": "Esteban",
             "size": 11, "dy": 0.6, "reverse_text": true
           },
           "ray": { "width": 1, "color": "grey" }
+        },
+        {
+          "length": 293, "angle": 30,
+          "text": {
+            "label": "Building vanityhikes.com", "color": "grey", "size": 12,
+            "dy": 0.6, "font": "Esteban", "reverse_text": true
+          },
+          "tooltip": "",
+          "redirect": "https://vanityhikes.com/?menu=map",
+          "mouseover_images": [],
+          "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
           "length": 187, "angle": 70,
