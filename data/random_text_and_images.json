@@ -25,33 +25,38 @@
   "images": [
     {
       "path": "img/linkedin.png",
-      "x": -137, "y": 166, "width": 71, "height": 16,
+      "x": -125, "y": 166, "width": 71, "height": 16,
       "link": "https://www.linkedin.com/in/xavierguihot"
     },
     {
+      "path": "img/linktree.png",
+      "x": -153, "y": 166, "width": 16, "height": 16,
+      "link": "https://linktr.ee/xavierguihot"
+    },
+    {
       "path": "img/resume.png",
-      "x": -140, "y": 166, "width": 16, "height": 16,
+      "x": -128, "y": 166, "width": 16, "height": 16,
       "link": "http://xavierguihot.com/jsonresume-theme-stackoverflow"
     },
     {
       "path": "img/so-icon.png",
-      "x": -87, "y": 160.5, "width": 28, "height": 28,
+      "x": -75, "y": 160.5, "width": 28, "height": 28,
       "link": "https://stackoverflow.com/users/9297144/xavier-guihot"
     },
     {
       "path": "img/github.png",
-      "x": -53, "y": 166, "width": 16, "height": 16,
+      "x": -41, "y": 166, "width": 16, "height": 16,
       "link": "https://github.com/xavierguihot"
     },
     {
       "path": "img/codewars.ico",
-      "x": -20, "y": 166, "width": 16, "height": 16,
+      "x": -8, "y": 166, "width": 16, "height": 16,
       "link": "https://www.codewars.com/users/xavierguihot/stats"
     },
     {
-      "path": "img/freelancer.ico",
-      "x": 11, "y": 166, "width": 16, "height": 16,
-      "link": "https://freelancer.com/u/XavierGht.html"
+      "path": "img/terre.png",
+      "x": 21, "y": 165.5, "width": 17, "height": 17,
+      "link": "https://vanityhikes.com/?menu=map"
     },
     {
       "path": "img/protonmail.png",
