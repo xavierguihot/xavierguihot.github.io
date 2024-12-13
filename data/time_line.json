@@ -679,7 +679,7 @@
           "text": {
             "label": "AMADEUS", "reverse_text": false, "color": "silver", "size": 11
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, France)</div>Data Engineer - 3 years 7 months<br><br>Global Distribution System - Travel B2B IT provider.<br>Search, shopping, pricing, booking, ...<br><br>Analytics for flight recommendation search engines.<br>50% spark - 25% dataviz - 25% data science<br><br>Referral: Nicolas MAILLOT",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">AMADEUS (Sophia Antipolis, France)</div>Data Engineer - 3 years 7 months<br><br>Global Distribution System - Travel B2B IT provider.<br>Search, shopping, pricing, booking, ...<br><br>Analytics for flight recommendation search engines.<br>50% spark - 25% dataviz - 25% data science<br><br>Scala / Spark / Hadoop / Python / d3.js / Mongo / Django<br><br>Referral: Nicolas MAILLOT",
           "redirect": "http://www.amadeus.com",
           "mouseover_images": [
             {
