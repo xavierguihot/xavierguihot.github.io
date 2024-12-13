@@ -802,7 +802,7 @@
             "label": "IMG ARENA", "reverse_text": false, "color": "silver", "size": 11,
             "startOffset": "1%"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">IMG ARENA (London, UK)</div>Backend Developer - 1 year 10 months<br><br>Live sport betting feeds streaming.<br>Low-latency and highly reliable sport data collection and broadcasting.<br><br>100% Scala<br>Akka Streams / AWS / Postgres<br><br>Referral: Mike HICKMAN",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">IMG ARENA (London, UK)</div>Backend Developer - 1 year 10 months<br><br>Live sport betting feeds streaming.<br>Low-latency and highly reliable sport data collection and broadcasting.<br><br>100% Scala<br>Akka Streams / AWS / Postgres / RabbitMQ<br><br>Referral: Mike HICKMAN",
           "redirect": "https://www.imgarena.com/",
           "mouseover_images": [],
           "gradient_colors": [
@@ -915,7 +915,7 @@
             "label": "BLOOM", "reverse_text": false, "color": "silver", "size": 11,
             "startOffset": "1%"
           },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">BLOOM Social Analytics (Paris, Fance)</div>Lead Data Engineer (Remote) - 2 years 6 months<br><br>Bloom collects social media content, processes it to discover insights<br>and provides visual dashboards for analysis of those insights.<br><br>I'm in charge of the engineering on the data processing side, which consists in:<br><br>• Tokenizing and classifying social media content<br>• Propagating classifications amongst social media referral chains<br>• Producing all sorts of metrics<br>• Creating graphs of terms and graphs of social media actors<br>• Detecting inauthentic behaviours<br>• Extracting locations from social media content<br>• Building data visualisations<br><br>Scala / Spark / Mongo / AWS S3/EMR / Airflow / d3.js<br><br>Referral: Benjamin VELUZAT",
+          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">BLOOM Social Analytics (Paris, Fance)</div>Lead Data Engineer (Remote) - 2 years 6 months<br><br>Bloom collects social media content, processes it to discover insights<br>and provides visual dashboards for analysis of those insights.<br><br>I'm in charge of the engineering on the data processing side, which consists in:<br><br>• Tokenizing and classifying social media content<br>• Propagating classifications amongst social media referral chains<br>• Producing all sorts of metrics<br>• Creating graphs of terms and graphs of social media actors<br>• Detecting inauthentic behaviours<br>• Extracting locations from social media content<br>• Building data visualisations<br><br>A consequent initial part of the role consisted in scaling up the system by transitioning<br>the existing tech stack from python/sql to scala/spark/emr, which resulted in:<br><br>• Being able to process projects 10 times bigger<br>• Caping a project's processing duration to 2 hours independently from the<br>data volume (vs up to 2 days beforehand)<br>• Making the system reliable enough (in the end, the team was able to go on<br>vacation for 2 weeks without the system needing any intervention)<br><br>Scala / Spark / Mongo / AWS S3/EMR / Airflow / d3.js<br><br>Referral: Benjamin VELUZAT",
           "redirect": "https://bloomsocialanalytics.com/fr/",
           "mouseover_images": [],
           "gradient_colors": [
