@@ -539,42 +539,6 @@
           "ray": { "width": 1, "color": "lightsteelblue" }
         },
         {
-          "length": 274, "angle": 300,
-          "text": {
-            "label": "Joined freelancer.com", "color": "grey", "size": 12,
-            "dy": 0.6, "font": "Esteban", "reverse_text": true
-          },
-          "tooltip": "<div style=\"font-size:17px;font-weight:medium\">Freelance Side Projects</div>https://freelancer.com/u/xavierght.html<br><br>Mostly English to French translations<br><br>For instance, the french version of BongaCams.com<br>(83rd most visited web site)",
-          "redirect": "https://www.freelancer.com/u/XavierGht",
-          "mouseover_images": [
-            {
-              "path": "img/freelancer_logo.png",
-              "x": 500, "y": 525, "width": 300, "height": 95
-            },
-            {
-              "path": "img/shus_garden.png",
-              "x": 380, "y": 760, "width": 160, "height": 108
-            },
-            {
-              "path": "img/bongacams.png",
-              "x": 470, "y": 830, "width": 180, "height": 80
-            },
-            {
-              "path": "img/kamatera.png",
-              "x": 560, "y": 870, "width": 180, "height": 100
-            },
-            {
-              "path": "img/freelancer_stats.png",
-              "x": 200, "y": 460, "width": 238, "height": 269
-            },
-            {
-              "path": "img/freelancer_review.png",
-              "x": 840, "y": 860, "width": 473, "height": 90
-            }
-          ],
-          "ray": { "width": 1, "color": "lightsteelblue" }
-        },
-        {
           "length": 188, "angle": 310,
           "text": {
             "label": "2016", "color": "#00b8e6", "font": "Esteban",
